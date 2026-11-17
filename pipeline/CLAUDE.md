@@ -71,7 +71,7 @@ Hard limit 10:00 including intro and credits (`show-catalog/runtime.py`). The wr
 - Next: schedule `/rt-weekly` (laptop scheduled task recommended) after one full run with voice.
 
 ## Public site
-`site/` is its own git repo, **Val0007/racing-times** (GitHub Pages: https://val0007.github.io/racing-times/), git-ignored here. One page lists the episodes from `site/content/episodes.md` (newest first); videos live in `site/videos/` (keep each under 100 MB), notes are the episode's `out/description.md`. `site/README.md` has the steps. Add and push an episode only when the user asks in chat, after Checkpoint 3. It's linked from the Fun Stuff tab of the user's portfolio (Val0007/Portfolio-md).
+`site/` is its own git repo, **Val0007/racing-times**, git-ignored here. GitHub Pages serves only `site/docs/` (https://val0007.github.io/racing-times/): one page listing the episodes from `docs/content/episodes.md` (newest first), videos in `docs/videos/` (each under 100 MB), notes = the episode's `out/description.md`. `site/pipeline/` is a snapshot of this project (not deployed), refreshed by `site/sync_pipeline.sh`, which leaves out .env, data, photos, audio, video, articles.jsonl and wire.json and aborts if the API key shows up. `site/README.md` documents the whole pipeline and how to add an episode. Add and push an episode only when the user asks in chat, after Checkpoint 3. It's linked from the Fun Stuff tab of the user's portfolio (Val0007/Portfolio-md).
 
 ## Rules (keep these)
 - **Summaries, not reproduction.** Own words; any quote under 15 words, at most one per source; always credit and link originals. The video's credits roll and `out/description.md` are required.
