@@ -1,0 +1,81 @@
+{
+  "show": "Racing Times",
+  "episode": 1,
+  "date_display": "16 NOV 2026",
+  "presenter": {"name": "PIXIE", "role": "PRESENTER", "voice": "bf_emma", "speed": 1.0},
+  "segments": [
+    {
+      "id": "cold_open",
+      "graphic": {"kind": "logo"},
+      "shots": [[0, "close"], [0.55, "wide"]],
+      "lower_third": {"title": "PIXIE", "sub": "YOUR RACING TIMES PRESENTER"},
+      "sentences": [
+        "Rain at Interlagos, a champion crowned in silver, and a brand new Formula E car hits the track today.",
+        {"text": "Good evening, I'm Pixie, and this is Racing Times.", "say": "Good evening, I'm Pixie, and this is Racing Times."}
+      ]
+    },
+    {
+      "id": "headlines",
+      "graphic": {"kind": "headlines", "items": ["NORRIS MASTERS THE RAIN", "MERCEDES CROWNED", "GEN4 ERA BEGINS"]},
+      "shots": [[0, "wide"], [0.25, "full"]],
+      "point": true,
+      "sentences": [
+        "Here's what's on the grid this week.",
+        "Lando Norris masters the Brazilian rain.",
+        "Mercedes are your twenty twenty-six constructors' champions.",
+        {"text": "And Formula E's GEN4 era begins at Jarama.", "say": "And Formula E's Gen Four era begins at Harama."}
+      ]
+    },
+    {
+      "id": "lead",
+      "graphic": {"kind": "p1", "pos": "P1", "name": "LANDO NORRIS", "team": "MCL", "sub": "MCLAREN - SAO PAULO GP", "stat": "+14.602S"},
+      "graphic_b": {"kind": "results", "title": "SAO PAULO GRAND PRIX", "rows": [["1","NORRIS","MCL","WIN"],["2","VERSTAPPEN","RBR","+14.6"],["3","HADJAR","RBR","+24.5"],["4","RUSSELL","MER","+34.0"],["5","ANTONELLI","MER","+41.0"]]},
+      "graphic_b_at": 0.45,
+      "shots": [[0, "wide"], [0.45, "full"], [0.82, "close"]],
+      "point": true,
+      "lower_third_at": 0.82,
+      "lower_third": {"title": "SAO PAULO GP", "sub": "VERSTAPPEN: 21ST TO 2ND"},
+      "sentences": [
+        {"text": "We start in São Paulo.", "say": "We start in Sao Paulo."},
+        "Norris took pole, then took control, winning by fourteen point six seconds as the weather kept changing.",
+        "But the drive of the day belonged to Max Verstappen.",
+        "After grid penalties he started twenty-first, and finished second.",
+        {"text": "Isack Hadjar made it a double podium for Red Bull.", "say": "Isack Hadjar made it a double podium for Red Bull."}
+      ]
+    },
+    {
+      "id": "champions",
+      "graphic": {"kind": "champions", "big": "MERCEDES", "sub": "2026 CONSTRUCTORS' CHAMPIONS", "team": "MER"},
+      "shots": [[0, "full"], [0.55, "wide"]],
+      "sentences": [
+        {"text": "Russell and Antonelli came home fourth and fifth, and that was enough.", "say": "Russell and Antonelli came home fourth and fifth. And that was enough."},
+        "Mercedes are constructors' champions, with races to spare."
+      ]
+    },
+    {
+      "id": "formula_e",
+      "graphic": {"kind": "bigword", "big": "GEN4", "lines": ["TESTING: JARAMA 16-20 NOV", "SEASON 13: JEDDAH 18 DEC"]},
+      "shots": [[0, "wide"], [0.35, "full"], [0.8, "wide"]],
+      "point": true,
+      "sentences": [
+        "Over to Formula E.",
+        {"text": "Today the whole grid gets its first proper run in the GEN4 car: five days of testing at Jarama.", "say": "Today, the whole grid gets its first proper run in the Gen Four car. Five days of testing, at Harama."},
+        "Then the new season opens in Jeddah on the eighteenth of December."
+      ]
+    },
+    {
+      "id": "sign_off",
+      "graphic": {"kind": "nextup", "big": "LAS VEGAS", "sub": "GRAND PRIX - 19-21 NOV", "later": ["CAMARA'S HOME DEBUT", "ALAN JONES 1946-2026"]},
+      "shots": [[0, "wide"], [0.62, "close"]],
+      "point": true,
+      "lower_third_at": 0.62,
+      "lower_third": {"title": "NEXT: LAS VEGAS GP", "sub": "19-21 NOVEMBER"},
+      "sentences": [
+        "Still to come: Rafael Camara's surprise home debut, and a farewell to nineteen eighty world champion Alan Jones.",
+        "But first, the lights go out in Las Vegas this weekend.",
+        "Stay with us."
+      ]
+    }
+  ],
+  "credits": ["The Race", "PlanetF1", "GPFans", "Silverstone", "Formula1.com", "FIA", "Band", "CGTN", "Crash.net", "Autosport"]
+}

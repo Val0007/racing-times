@@ -1,0 +1,577 @@
+{
+  "version": 1,
+  "about": "The single list of what a Racing Times script may ask for. Both renderers (show-pixel, show-3d) draw exactly these; validate.py enforces them; script_writer and the newsroom skills read their instructions from here. Add a graphic or shot here AND in both renderers, then flip its status to 'ready'. Characters: bible/. Strict mode (newsroom scripts) requires a kind on every sentence.",
+  "text_rules": {
+    "graphic_text": "UPPERCASE ASCII only (the pixel fonts have no accents): SAO PAULO, not São Paulo. Use ' - ' as a separator, not a middle dot.",
+    "sentences": "Any characters. Use {text, say} when TTS may mangle a name: text is the subtitle, say is how to pronounce it."
+  },
+  "teams": {
+    "about": "Team codes for graphics. Colours are approximate and used only for accents.",
+    "codes": {
+      "MCL": {
+        "name": "McLaren",
+        "color": "#ff8000"
+      },
+      "FER": {
+        "name": "Ferrari",
+        "color": "#e8002d"
+      },
+      "RBR": {
+        "name": "Red Bull",
+        "color": "#3671c6"
+      },
+      "MER": {
+        "name": "Mercedes",
+        "color": "#27f4d2"
+      },
+      "AMR": {
+        "name": "Aston Martin",
+        "color": "#229971"
+      },
+      "ALP": {
+        "name": "Alpine",
+        "color": "#0093cc"
+      },
+      "WIL": {
+        "name": "Williams",
+        "color": "#64c4ff"
+      },
+      "RB": {
+        "name": "Racing Bulls",
+        "color": "#6692ff"
+      },
+      "HAA": {
+        "name": "Haas",
+        "color": "#b6babd"
+      },
+      "AUD": {
+        "name": "Audi",
+        "color": "#c8ccd0"
+      },
+      "CAD": {
+        "name": "Cadillac",
+        "color": "#c9a24a"
+      }
+    }
+  },
+  "shots": {
+    "wide": {
+      "status": "ready",
+      "desc": "Pixie at the desk with the video wall beside her.",
+      "use": "Default. Introducing a story, linking between items."
+    },
+    "close": {
+      "status": "ready",
+      "desc": "Tight on Pixie; the wall is out of frame.",
+      "use": "Emotional beats, opinions, cold-open hook, sign-off. Lower thirds show here."
+    },
+    "full": {
+      "status": "ready",
+      "desc": "The current graphic fills the screen.",
+      "use": "Whenever a graphic must be read: results tables, headline lists, dates. No lower third, no bugs."
+    },
+    "two_shot": {
+      "status": "planned",
+      "desc": "Pixie and Byte (paddock reporter) side by side.",
+      "use": "The interview segment, when Byte relays attributed quotes."
+    }
+  },
+  "segment": {
+    "id": {
+      "required": true,
+      "desc": "Unique snake_case id, e.g. lead, formula_e, sign_off."
+    },
+    "speaker": {
+      "required": false,
+      "desc": "Who speaks this segment: pixie (default, studio) or byte (grid). A sentence can override it."
+    },
+    "graphic": {
+      "required": true,
+      "desc": "The graphic on the wall (or full screen) when the segment starts."
+    },
+    "graphic_b": {
+      "required": false,
+      "desc": "A second graphic that replaces the first part-way through."
+    },
+    "graphic_b_at": {
+      "required": false,
+      "desc": "0-1, fraction of the segment at which graphic_b appears. Required with graphic_b."
+    },
+    "shots": {
+      "required": true,
+      "desc": "[[fraction, shot], ...]; first fraction is 0, fractions increase, each < 1. Fraction = share of the segment's spoken length."
+    },
+    "point": {
+      "required": false,
+      "desc": "true: Pixie turns and points at the wall at the start of the segment. Use when she introduces a graphic on a wide shot."
+    },
+    "lower_third": {
+      "required": false,
+      "desc": "{title, sub} name strap; shows for ~5 s on wide/close shots.",
+      "max": {
+        "title": 22,
+        "sub": 34
+      }
+    },
+    "lower_third_at": {
+      "required": false,
+      "desc": "0-1, when the lower third appears (default 0)."
+    },
+    "sentences": {
+      "required": true,
+      "desc": "Spoken lines: strings, or {text, say}."
+    }
+  },
+  "graphics": {
+    "logo": {
+      "status": "ready",
+      "desc": "Show logo on a moving checker / gold rings.",
+      "use": "Cold open, or between halves of the show.",
+      "fields": {
+        "sub": {
+          "type": "str",
+          "max": 28,
+          "required": false,
+          "default": "EPISODE <nn>"
+        }
+      },
+      "example": {
+        "kind": "logo"
+      }
+    },
+    "headlines": {
+      "status": "ready",
+      "desc": "Title bar plus 1-4 lines that slide in one by one, about 1.5 s apart.",
+      "use": "The 'this week' menu after the cold open. One short line per story.",
+      "fields": {
+        "title": {
+          "type": "str",
+          "max": 16,
+          "required": false,
+          "default": "THIS WEEK"
+        },
+        "items": {
+          "type": "list",
+          "min": 1,
+          "max_items": 4,
+          "max": 26,
+          "required": true
+        }
+      },
+      "example": {
+        "kind": "headlines",
+        "items": [
+          "NORRIS MASTERS THE RAIN",
+          "MERCEDES CROWNED",
+          "GEN4 ERA BEGINS"
+        ]
+      }
+    },
+    "p1": {
+      "status": "ready",
+      "desc": "Big position number with a driver's name, a detail line and an optional stat, in the team's colour.",
+      "use": "Race winner, pole sitter, or any single headline result.",
+      "fields": {
+        "pos": {
+          "type": "str",
+          "max": 4,
+          "required": false,
+          "default": "P1"
+        },
+        "name": {
+          "type": "str",
+          "max": 18,
+          "required": true,
+          "note": "Full name; the small wall view shows only the surname."
+        },
+        "team": {
+          "type": "team",
+          "required": false
+        },
+        "sub": {
+          "type": "str",
+          "max": 40,
+          "required": true,
+          "note": "e.g. MCLAREN - SAO PAULO GP"
+        },
+        "stat": {
+          "type": "str",
+          "max": 12,
+          "required": false,
+          "note": "e.g. +14.602S"
+        }
+      },
+      "example": {
+        "kind": "p1",
+        "pos": "P1",
+        "name": "LANDO NORRIS",
+        "team": "MCL",
+        "sub": "MCLAREN - SAO PAULO GP",
+        "stat": "+14.602S"
+      }
+    },
+    "results": {
+      "status": "ready",
+      "desc": "Classification table, rows slide in from the right.",
+      "use": "Top-5 of a race or qualifying. Put it on a 'full' shot: it is unreadable on the small wall.",
+      "fields": {
+        "title": {
+          "type": "str",
+          "max": 24,
+          "required": true
+        },
+        "sub": {
+          "type": "str",
+          "max": 32,
+          "required": false,
+          "default": "TOP <n> - CLASSIFICATION"
+        },
+        "rows": {
+          "type": "rows",
+          "min": 1,
+          "max_items": 5,
+          "required": true,
+          "columns": [
+            [
+              "pos",
+              3
+            ],
+            [
+              "name",
+              12
+            ],
+            [
+              "team",
+              3
+            ],
+            [
+              "gap",
+              8
+            ]
+          ],
+          "note": "[pos, SURNAME, TEAM CODE, gap]; winner's gap is WIN or the race time."
+        }
+      },
+      "example": {
+        "kind": "results",
+        "title": "SAO PAULO GRAND PRIX",
+        "rows": [
+          [
+            "1",
+            "NORRIS",
+            "MCL",
+            "WIN"
+          ],
+          [
+            "2",
+            "VERSTAPPEN",
+            "RBR",
+            "+14.6"
+          ]
+        ]
+      }
+    },
+    "champions": {
+      "status": "ready",
+      "desc": "Confetti with a big name and a gold sub-line.",
+      "use": "Titles, clinched championships, records.",
+      "fields": {
+        "big": {
+          "type": "str",
+          "max": 12,
+          "required": true
+        },
+        "sub": {
+          "type": "str",
+          "max": 32,
+          "required": true
+        },
+        "team": {
+          "type": "team",
+          "required": false
+        }
+      },
+      "example": {
+        "kind": "champions",
+        "big": "MERCEDES",
+        "sub": "2026 CONSTRUCTORS' CHAMPIONS",
+        "team": "MER"
+      }
+    },
+    "bigword": {
+      "status": "ready",
+      "aliases": [
+        "gen4"
+      ],
+      "desc": "One huge word over animated diagonal lines, with one or two fact lines.",
+      "use": "Any story that has a one-word hook: a new car, a venue, a number.",
+      "fields": {
+        "big": {
+          "type": "str",
+          "max": 8,
+          "required": true
+        },
+        "lines": {
+          "type": "list",
+          "min": 1,
+          "max_items": 2,
+          "max": 32,
+          "required": true,
+          "note": "The small wall view shows only the first line."
+        }
+      },
+      "example": {
+        "kind": "bigword",
+        "big": "GEN4",
+        "lines": [
+          "TESTING: JARAMA 16-20 NOV",
+          "SEASON 13: JEDDAH 18 DEC"
+        ]
+      }
+    },
+    "nextup": {
+      "status": "ready",
+      "desc": "'Next race' card with the event, dates and up to two 'later' teasers.",
+      "use": "Sign-off and week-ahead.",
+      "fields": {
+        "title": {
+          "type": "str",
+          "max": 16,
+          "required": false,
+          "default": "NEXT RACE"
+        },
+        "big": {
+          "type": "str",
+          "max": 14,
+          "required": true
+        },
+        "sub": {
+          "type": "str",
+          "max": 28,
+          "required": true
+        },
+        "later": {
+          "type": "list",
+          "min": 0,
+          "max_items": 2,
+          "max": 28,
+          "required": false
+        }
+      },
+      "example": {
+        "kind": "nextup",
+        "big": "LAS VEGAS",
+        "sub": "GRAND PRIX - 19-21 NOV",
+        "later": [
+          "CAMARA'S HOME DEBUT"
+        ]
+      }
+    },
+    "photo": {
+      "status": "ready",
+      "desc": "The story's approved photo across the studio wall, with kicker, headline and photo credit. On the pixel show it fills the wall screen.",
+      "use": "Any story with approved photos. Use several per story (n=1, 2, 3) across segments, so the wall keeps changing. The credit is added automatically; the photo slowly zooms.",
+      "fields": {
+        "story": {
+          "type": "id",
+          "required": true,
+          "note": "story id from editor_notes.json; the photo comes from photos/photos.json"
+        },
+        "title": {
+          "type": "str",
+          "max": 48,
+          "required": true
+        },
+        "kicker": {
+          "type": "str",
+          "max": 28,
+          "required": false
+        },
+        "n": {
+          "type": "int",
+          "min": 1,
+          "max": 5,
+          "required": false,
+          "note": "which photo of the story (photos.json 'n'); default 1"
+        }
+      },
+      "example": {
+        "kind": "photo",
+        "story": "brazil_gp",
+        "title": "NORRIS MASTERS THE INTERLAGOS RAIN",
+        "kicker": "F1 - SAO PAULO GP"
+      }
+    },
+    "quote": {
+      "status": "planned",
+      "desc": "A short attributed quote with speaker and source.",
+      "use": "Byte's interview segment. Real quotes only, under 15 words, from a named press release or series report.",
+      "fields": {
+        "text": {
+          "type": "str",
+          "max": 90,
+          "required": true
+        },
+        "speaker": {
+          "type": "str",
+          "max": 24,
+          "required": true
+        },
+        "source": {
+          "type": "str",
+          "max": 32,
+          "required": true
+        },
+        "team": {
+          "type": "team",
+          "required": false
+        }
+      }
+    },
+    "standings": {
+      "status": "planned",
+      "desc": "Championship table with points and gap to the leader.",
+      "use": "Title-fight stories.",
+      "fields": {
+        "title": {
+          "type": "str",
+          "max": 24,
+          "required": true
+        },
+        "rows": {
+          "type": "rows",
+          "min": 1,
+          "max_items": 6,
+          "required": true,
+          "columns": [
+            [
+              "pos",
+              3
+            ],
+            [
+              "name",
+              12
+            ],
+            [
+              "team",
+              3
+            ],
+            [
+              "points",
+              5
+            ]
+          ]
+        }
+      }
+    },
+    "driver": {
+      "status": "planned",
+      "desc": "Driver card: name, team, and up to three facts. Typographic, no photo.",
+      "use": "Debuts, transfers, profiles.",
+      "fields": {
+        "name": {
+          "type": "str",
+          "max": 18,
+          "required": true
+        },
+        "team": {
+          "type": "team",
+          "required": false
+        },
+        "facts": {
+          "type": "list",
+          "min": 1,
+          "max_items": 3,
+          "max": 30,
+          "required": true
+        }
+      }
+    },
+    "briefs": {
+      "status": "planned",
+      "desc": "Rapid-fire list: series tag plus one line each, ticking through.",
+      "use": "The briefs round.",
+      "fields": {
+        "items": {
+          "type": "list",
+          "min": 2,
+          "max_items": 6,
+          "max": 34,
+          "required": true,
+          "note": "Start each with the series tag, e.g. 'FE: SHANGHAI DOUBLE-HEADER'."
+        }
+      }
+    }
+  },
+  "cast": {
+    "about": "Who can speak. Personalities live in bible/<name>.md. Shot names (wide/close/full) apply to the speaker's own set.",
+    "pixie": {
+      "role": "Presenter",
+      "set": "studio",
+      "voice": "bf_emma",
+      "speed": 1.0,
+      "bible": "bible/pixie.md"
+    },
+    "byte": {
+      "role": "Paddock reporter",
+      "set": "grid",
+      "voice": "bm_lewis",
+      "speed": 1.08,
+      "bible": "bible/byte.md"
+    }
+  },
+  "sentence": {
+    "about": "A sentence is a plain string (Pixie, kind 'link' or legacy) or an object with these fields.",
+    "text": {
+      "required": true,
+      "desc": "Subtitle text: exactly what is said."
+    },
+    "say": {
+      "required": false,
+      "desc": "TTS-friendly spelling, e.g. Jarama -> Harama."
+    },
+    "speaker": {
+      "required": false,
+      "desc": "Overrides the segment speaker for this line (for banter)."
+    },
+    "kind": {
+      "required": "strict",
+      "enum": [
+        "fact",
+        "opinion",
+        "anecdote",
+        "link"
+      ],
+      "desc": "fact = from the edition's sources; opinion = the character's view, no new claims; anecdote = history or a statistic, needs source; link = greetings, hand-offs, claim-free jokes."
+    },
+    "source": {
+      "required": false,
+      "desc": "URL. Required when kind is anecdote (from the anecdote-finder agent)."
+    },
+    "delivery": {
+      "required": false,
+      "enum": [
+        "neutral",
+        "warm",
+        "excited",
+        "serious",
+        "deadpan",
+        "question",
+        "aside"
+      ],
+      "desc": "How the line is spoken and acted: neutral, warm, excited, serious, deadpan, question, aside. Sets the voice's speed, pitch, loudness and pause, plus the character's brows, nods and head tilt. Vary it: no more than two lines in a row with the same delivery. Sensitive stories: serious or warm only."
+    }
+  },
+  "show": {
+    "about": "Show-wide settings the renderers read.",
+    "city": "Stockholm"
+  },
+  "desk_display": {
+    "about": "Optional top-level script field: the items the desk screen cycles through (6 s each). Default: title, live from <city>, next = the next two story titles.",
+    "kinds": {
+      "title": "Show wordmark, episode and date.",
+      "live": "{text}: e.g. 'Live from Stockholm' (max 28).",
+      "next": "{items}: 1-2 upcoming headlines (max 40 each)."
+    }
+  }
+}

@@ -1,0 +1,515 @@
+{
+ "episode": 1,
+ "date": "2026-11-16",
+ "date_display": "16 NOV 2026",
+ "city": "Stockholm",
+ "window": "2026-11-01 to 2026-11-16",
+ "cold_open_hook": "The youngest world champion in Formula 1 history, a ninth title for Mercedes, and the lights of Las Vegas next.",
+ "stories": [
+  {
+   "id": "antonelli_champion",
+   "rank": 1,
+   "emphasis": "lead",
+   "speaker": "pixie",
+   "series": "F1",
+   "kicker": "World champion",
+   "headline": "Antonelli: youngest world champion ever",
+   "angle": "The story of the season: a record-breaking title in only his second year, sealed in Mexico City.",
+   "facts": [
+    "Kimi Antonelli became the youngest World Champion in Formula 1 history",
+    "He took the youngest-champion record from Sebastian Vettel by over three years",
+    "Nine Grand Prix wins and seven further podiums brought him the 2026 title",
+    "He sealed the title with third place in Mexico City, on a podium shared with Max Verstappen and Lewis Hamilton",
+    "He clinched it with three races still remaining",
+    "Antonelli is the first driver developed through Mercedes' junior programme to win the championship with the works team",
+    "Mercedes celebrated both titles with staff at Brackley and Brixworth on Wednesday 11 November",
+    "At the 2018 Italian Grand Prix a 12-year-old Antonelli was a grid kid in the pre-race ceremonies"
+   ],
+   "unverified": [
+    "Who won the Mexico City GP: our sources only say Antonelli was third on a podium shared with Verstappen and Hamilton. Don't name the winner.",
+    "Antonelli's age: not stated in our sources. Don't give it."
+   ],
+   "sources": [
+    {
+     "name": "Formula1.com",
+     "title": "Our writers on Antonelli’s title success",
+     "url": "https://www.formula1.com/en/latest/article/our-writers-on-antonellis-title-success-and-what-it-means.2FAfHA49byUlrrTfVgWKWc"
+    },
+    {
+     "name": "Formula1.com",
+     "title": "Behind the lens with Mark Sutton for Antonelli's F1 title",
+     "url": "https://www.formula1.com/en/latest/article/one-of-the-best-experiences-of-my-life-mark-sutton-on-photographing-antonellis-f1-title.2oqpziZe3WQ5B2xFvPWsnU"
+    },
+    {
+     "name": "Formula1.com",
+     "title": "Antonelli names his biggest threat for 2027 title defence",
+     "url": "https://www.formula1.com/en/latest/article/antonelli-identifies-which-driver-poses-the-biggest-threat-to-his-title-defence-in-2027.6qjcpNnf8IerbXck8NpB05"
+    },
+    {
+     "name": "Mercedes-AMG F1",
+     "title": "Mercedes-AMG PETRONAS F1 Team Celebrates World Championships at Brackley and Brixworth - Mercedes-AMG PETRONAS F1 Team",
+     "url": "https://www.mercedesamgf1.com/news/team-celebrates-world-championships-at-brackley-and-brixworth"
+    },
+    {
+     "name": "Mercedes-AMG F1",
+     "title": "Nine Times Champions: The Story of Mercedes' Constructors' Championship Success - Mercedes-AMG PETRONAS F1 Team",
+     "url": "https://www.mercedesamgf1.com/news/nine-times-champions-the-story-of-mercedes-constructors-championship-success"
+    }
+   ],
+   "photo": true,
+   "sensitive": false,
+   "anecdote_facts": [
+    "Kimi Antonelli became the youngest Formula 1 world champion in 2026, taking the record from Sebastian Vettel."
+   ]
+  },
+  {
+   "id": "sao_paulo_gp",
+   "rank": 2,
+   "emphasis": "major",
+   "speaker": "pixie",
+   "series": "F1",
+   "kicker": "Sao Paulo GP",
+   "headline": "Norris wins a wet-and-dry Sao Paulo GP",
+   "angle": "Changing weather, a Verstappen charge to second, and a debut at the back.",
+   "facts": [
+    "1 Lando Norris (McLaren); 2 Max Verstappen (Red Bull) +14.602s; 3 Isack Hadjar (Red Bull) +24.485s",
+    "Charles Leclerc was given a five-second penalty for pushing Liam Lawson wide, which reversed their positions for seventh",
+    "Kimi Antonelli and Ollie Bearman received 5s penalties for unsafe pit releases",
+    "It was Norris's third win of the season",
+    "Cadillac's Valtteri Bottas did not start after a cross-threaded rear wheel nut was found on the way to the grid",
+    "Rain returned with fewer than 10 laps remaining"
+   ],
+   "results": {
+    "title": "SAO PAULO GRAND PRIX",
+    "rows": [
+     [
+      "1",
+      "NORRIS",
+      "MCL",
+      "WIN"
+     ],
+     [
+      "2",
+      "VERSTAPPEN",
+      "RBR",
+      "+14.602"
+     ],
+     [
+      "3",
+      "HADJAR",
+      "RBR",
+      "+24.485"
+     ]
+    ]
+   },
+   "sources": [
+    {
+     "name": "The Race",
+     "title": "F1 2026 Brazilian Grand Prix race result including penalties",
+     "url": "https://www.the-race.com/formula-1/f1-2026-brazilian-grand-prix-race-result/"
+    },
+    {
+     "name": "Cadillac F1",
+     "title": "2026 SAO PAULO GRAND PRIX — RACE REPORT",
+     "url": "https://www.cadillacf1team.com/news/2026-sao-paulo-grand-prix-race-report"
+    },
+    {
+     "name": "Mercedes-AMG F1",
+     "title": "2026 São Paulo Grand Prix - Race Report: Team Crowned World Champions in Brazil - Mercedes-AMG PETRONAS F1 Team",
+     "url": "https://www.mercedesamgf1.com/reports/race-report-team-crowned-world-champions-in-brazil"
+    },
+    {
+     "name": "Cadillac F1",
+     "title": "2026 SÃO PAULO GRAND PRIX – QUALIFYING REPORT",
+     "url": "https://www.cadillacf1team.com/news/2026-sao-paulo-grand-prix-qualifying-report"
+    }
+   ],
+   "photo": true,
+   "sensitive": false,
+   "anecdote_facts": []
+  },
+  {
+   "id": "mercedes_constructors",
+   "rank": 3,
+   "emphasis": "major",
+   "speaker": "byte",
+   "series": "F1",
+   "kicker": "Constructors' title",
+   "headline": "Mercedes: nine constructors' titles",
+   "angle": "Byte's history segment: level with Williams on nine, and Toto Wolff level with Sir Frank.",
+   "facts": [
+    "George Russell finished fourth and Kimi Antonelli fifth in Sao Paulo, securing the constructors' title",
+    "It is Mercedes' ninth constructors' championship and its first since 2021",
+    "Mercedes has won 12 races this season",
+    "The result draws Mercedes level with Williams on nine teams' titles",
+    "Toto Wolff is now the joint most successful team principal with Sir Frank Williams, on nine constructors' titles",
+    "Mercedes won eight straight constructors' titles from 2014 to 2021"
+   ],
+   "sources": [
+    {
+     "name": "Mercedes-AMG F1",
+     "title": "2026 São Paulo Grand Prix - Race Report: Team Crowned World Champions in Brazil - Mercedes-AMG PETRONAS F1 Team",
+     "url": "https://www.mercedesamgf1.com/reports/race-report-team-crowned-world-champions-in-brazil"
+    },
+    {
+     "name": "Formula1.com",
+     "title": "Toto Wolff's journey from Williams to nine F1 titles",
+     "url": "https://www.formula1.com/en/latest/article/toto-wolffs-journey-from-williams-to-nine-time-champion-with-mercedes.2l85DG3mfUyL5icscw0Gbn"
+    },
+    {
+     "name": "Mercedes-AMG F1",
+     "title": "Nine Times Champions: The Story of Mercedes' Constructors' Championship Success - Mercedes-AMG PETRONAS F1 Team",
+     "url": "https://www.mercedesamgf1.com/news/nine-times-champions-the-story-of-mercedes-constructors-championship-success"
+    },
+    {
+     "name": "Mercedes-AMG F1",
+     "title": "Mercedes-AMG PETRONAS F1 Team Celebrates World Championships at Brackley and Brixworth - Mercedes-AMG PETRONAS F1 Team",
+     "url": "https://www.mercedesamgf1.com/news/team-celebrates-world-championships-at-brackley-and-brixworth"
+    }
+   ],
+   "photo": false,
+   "sensitive": false,
+   "anecdote_facts": [
+    "Mercedes won its ninth F1 constructors' title in 2026, drawing level with Williams on nine."
+   ]
+  },
+  {
+   "id": "vegas_preview",
+   "rank": 4,
+   "emphasis": "major",
+   "speaker": "pixie",
+   "series": "F1",
+   "kicker": "Las Vegas GP - Round 21",
+   "headline": "Three races left, two fights still open",
+   "angle": "The title is settled; the fights for second in the drivers' standings and third in the teams' are not.",
+   "facts": [
+    "Las Vegas is Round 21 of the 2026 season, with three races left",
+    "The race starts Saturday 21 November at 8pm local time; qualifying is Friday 20 November at 8pm",
+    "Verstappen is second behind Antonelli after eight straight podiums including three wins",
+    "Just 33 points cover Verstappen, George Russell, Lewis Hamilton, Charles Leclerc and Lando Norris",
+    "Red Bull lead McLaren by 17 points in the fight for third in the teams' championship",
+    "Williams will run a one-off chrome livery with title partner Atlassian"
+   ],
+   "sources": [
+    {
+     "name": "Formula1.com",
+     "title": "5 storylines we're excited about ahead of the Las Vegas GP",
+     "url": "https://www.formula1.com/en/latest/article/its-race-week-5-storylines-were-excited-about-ahead-of-the-2026-las-vegas-grand-prix.3fjavheTbHD8fjZI0i7BWd"
+    },
+    {
+     "name": "Cadillac F1",
+     "title": "NEON NIGHTS AND ANOTHER HOMECOMING FOR THE CADILLAC FORMULA 1® TEAM",
+     "url": "https://www.cadillacf1team.com/news/neon-nights-and-another-homecoming-for-the-cadillac-formula-1-r-team"
+    },
+    {
+     "name": "Mercedes-AMG F1",
+     "title": "Six Things You Didn't Know About the Las Vegas GP 2026 - Mercedes-AMG PETRONAS F1 Team",
+     "url": "https://www.mercedesamgf1.com/news/six-things-you-didnt-know-about-the-las-vegas-gp-2026"
+    },
+    {
+     "name": "The Race",
+     "title": "What time is F1's 2026 Las Vegas Grand Prix? Full weekend schedule",
+     "url": "https://www.the-race.com/formula-1/what-time-is-f1s-2026-las-vegas-grand-prix-full-weekend-schedule/"
+    },
+    {
+     "name": "Formula1.com",
+     "title": "McLaren determined to take fight for P3 ‘down to the wire’",
+     "url": "https://www.formula1.com/en/latest/article/well-make-sure-it-goes-down-to-the-wire-mclaren-on-determination-to-finish-p3-in-teams-championship.2CPaMf6YTIkLE4pZlahf9y"
+    },
+    {
+     "name": "Formula1.com",
+     "title": "Williams unveil special livery for Las Vegas Grand Prix",
+     "url": "https://www.formula1.com/en/latest/article/williams-unveil-special-one-off-livery-for-las-vegas-grand-prix.01klQqq0PYu7wjugCtr98K"
+    },
+    {
+     "name": "The Race",
+     "title": "Las Vegas GP reveals neon-inspired trophy for 2026",
+     "url": "https://www.the-race.com/extra/las-vegas-gp-reveals-neon-inspired-trophy-for-2026/"
+    }
+   ],
+   "photo": false,
+   "sensitive": false,
+   "anecdote_facts": []
+  },
+  {
+   "id": "camara_vegas",
+   "rank": 5,
+   "emphasis": "major",
+   "speaker": "byte",
+   "series": "F1",
+   "kicker": "Haas",
+   "headline": "Camara keeps the Haas seat for Las Vegas",
+   "angle": "Byte: a tough debut, a second chance on the Strip, and an F2 title fight against Tsolov at the same time.",
+   "facts": [
+    "Rafael Camara will race for Haas again at the Las Vegas Grand Prix",
+    "His debut was brought forward from 2027 after Haas split with Esteban Ocon",
+    "He finished 20th and last, two laps down, on his Sao Paulo debut",
+    "Camara leads the F2 standings by seven points over Red Bull reserve Nikola Tsolov",
+    "Ryo Hirakawa drives FP1 in Las Vegas; he scored a point with tenth in Mexico City"
+   ],
+   "sources": [
+    {
+     "name": "The Race",
+     "title": "Vegas gives Camara chance to put messy debut behind him",
+     "url": "https://www.the-race.com/formula-1/vegas-gives-camara-chance-to-put-messy-debut-behind-him/"
+    },
+    {
+     "name": "Formula1.com",
+     "title": "Haas confirm Camara to race for the team in Las Vegas",
+     "url": "https://www.formula1.com/en/latest/article/haas-confirm-camara-to-race-for-the-team-in-las-vegas-as-hirakawa-returns-for-fp1-appearance.2as7TuSF4UHgXczZlu4245"
+    }
+   ],
+   "photo": false,
+   "sensitive": false,
+   "anecdote_facts": [
+    "Rafael Camara made his F1 debut for Haas at the 2026 Sao Paulo GP while leading the F2 championship."
+   ]
+  },
+  {
+   "id": "racing_bulls_2027",
+   "rank": 6,
+   "emphasis": "major",
+   "speaker": "pixie",
+   "series": "F1",
+   "kicker": "Driver market",
+   "headline": "Lawson and Lindblad stay; Tsolov waits",
+   "angle": "Racing Bulls choose continuity; Tsolov gets the reserve role for both Red Bull teams.",
+   "facts": [
+    "Liam Lawson and Arvid Lindblad will continue as Racing Bulls' line-up in 2027",
+    "Red Bull named Nikola Tsolov official reserve driver of both its F1 teams for 2027",
+    "Tsolov has six F2 race wins this season, with rounds in Qatar and Abu Dhabi to come",
+    "Lawson is ninth in the 2026 championship, the highest-placed midfield driver"
+   ],
+   "sources": [
+    {
+     "name": "Racing Bulls",
+     "title": "Liam Lawson and Arivd Linblad to continue with VCARB in 2027 |…",
+     "url": "https://www.visacashapprb.com/int-en/2027-driver-line-up-announcement"
+    },
+    {
+     "name": "The Race",
+     "title": "Our verdict on Lawson earning a 2027 F1 extension",
+     "url": "https://www.the-race.com/formula-1/liam-lawson-2027-f1-extension-our-verdict/"
+    },
+    {
+     "name": "The Race",
+     "title": "Tsolov gets twin F1 2027 reserve role to prepare him for race seat",
+     "url": "https://www.the-race.com/formula-1/tsolov-gets-twin-f1-2027-reserve-role-to-prepare-him-for-race-seat/"
+    },
+    {
+     "name": "The Race",
+     "title": "Red Bull's Lawson decision is a clean break from its Marko era",
+     "url": "https://www.the-race.com/formula-1/why-red-bull-avoided-an-unprecedented-driver-sacking/"
+    }
+   ],
+   "photo": false,
+   "sensitive": false,
+   "anecdote_facts": []
+  },
+  {
+   "id": "indycar_offseason",
+   "rank": 7,
+   "emphasis": "minor",
+   "speaker": "pixie",
+   "series": "INDY",
+   "kicker": "IndyCar off-season",
+   "headline": "Palou's fifth, and Johnson joins Coyne",
+   "angle": "Quick IndyCar round-up.",
+   "facts": [
+    "Alex Palou won his fifth IndyCar championship in 2026; the last four came consecutively, tying Sebastien Bourdais' record",
+    "Dale Coyne Racing signed INDY NXT champion Nikita Johnson for 2027",
+    "Johnson became the youngest INDY NXT champion at 18 years, 3 months and 12 days",
+    "Christian Lundgaard joins Chip Ganassi Racing alongside Palou; Scott Dixon has left for Arrow McLaren",
+    "The 17-race 2027 IndyCar season begins on 7 March in St Petersburg"
+   ],
+   "sources": [
+    {
+     "name": "IndyCar",
+     "title": "INDY NXT by Firestone Champion Nikita Johnson Signs With Coyne",
+     "url": "https://www.indycar.com/news/2026/11/11-10-johnson-dcr-news"
+    },
+    {
+     "name": "IndyCar",
+     "title": "Nikita Johnson Hopes Winning Ways Continue as Coyne Rookie",
+     "url": "https://www.indycar.com/news/2026/11/11-12-johnson-feature-from-news"
+    },
+    {
+     "name": "IndyCar",
+     "title": "Inside Line Extra: Biggest 2027 Story at Chip Ganassi Racing?",
+     "url": "https://www.indycar.com/news/2026/11/11-13-inside-line-extra-cgr"
+    },
+    {
+     "name": "IndyCar",
+     "title": "Five Drivers Poised To Jump High in 2027 Standings",
+     "url": "https://www.indycar.com/news/2026/11/11-09-biggest-jump-listicle"
+    },
+    {
+     "name": "IndyCar",
+     "title": "15-Race INDY NXT by Firestone Schedule Announced for 2027",
+     "url": "https://www.indycar.com/news/2026/11/11-13-nxt-2027-sked"
+    },
+    {
+     "name": "IndyCar",
+     "title": "Conor Daly, Dreyer & Reinbold Pass Key Test as Full-Time Return Looms",
+     "url": "https://www.indycar.com/news/2026/11/11-02-daly-feature"
+    }
+   ],
+   "photo": false,
+   "sensitive": false,
+   "anecdote_facts": []
+  },
+  {
+   "id": "f3_to_f2",
+   "rank": 8,
+   "emphasis": "minor",
+   "speaker": "pixie",
+   "series": "F3",
+   "kicker": "Feeder series",
+   "headline": "F3 champion Ugochukwu steps up to F2",
+   "angle": "One line from the ladder.",
+   "facts": [
+    "2026 F3 champion Ugo Ugochukwu steps up to F2 with Campos Racing for 2027",
+    "He won the title at the final round in Madrid"
+   ],
+   "sources": [
+    {
+     "name": "Formula 3",
+     "title": "2026 Champion Ugo Ugochukwu steps up to Formula 2 with Campos Racing for 2027",
+     "url": "https://www.fiaformula3.com/en/latest/article/2026-champion-ugo-ugochukwu-steps-up-to-formula-2-with-campos-racing-for-2027.4udiZyfpWfZTdRnyV6hCWu"
+    },
+    {
+     "name": "Formula 3",
+     "title": "Wheldon aiming to ‘fight for the championship’ in debut F3 season",
+     "url": "https://www.fiaformula3.com/en/latest/article/wheldon-aiming-to-fight-for-the-championship-in-debut-f3-season.3a6fRSLabFj17nL84DHUmw"
+    },
+    {
+     "name": "Formula 3",
+     "title": "‘It’s a great honour’ – Dion Gowda on stepping up to F3 with LN4 Fusion",
+     "url": "https://www.fiaformula3.com/en/latest/article/its-a-great-honour-dion-gowda-on-stepping-up-to-f3-with-ln4-fusion.2emdrWTah3bcCLP7FdgeXw"
+    }
+   ],
+   "photo": false,
+   "sensitive": false,
+   "anecdote_facts": []
+  }
+ ],
+ "held": [
+  {
+   "id": "fe_gen4_testing",
+   "reason": "GEN4 pre-season testing starts this week, but Formula E's and the FIA's sites block automated readers, so we collected no article. Not in the show unless a readable source is added."
+  },
+  {
+   "id": "f1_v8_engines",
+   "reason": "Single-outlet report of an expected decision (The Race). Wait for the meeting."
+  },
+  {
+   "id": "aduo_for_teams",
+   "reason": "Single-outlet report of a proposal (The Race). Wait for the F1 Commission."
+  },
+  {
+   "id": "cadillac_business",
+   "reason": "Partner and graduate-programme news; low interest."
+  },
+  {
+   "id": "williams_testing",
+   "reason": "Analysis piece, no news event."
+  }
+ ],
+ "quote_story": "mercedes_constructors",
+ "quote": {
+  "text": "I am incredibly proud to be World Champion",
+  "speaker": "Kimi Antonelli",
+  "source_name": "Mercedes-AMG F1",
+  "source_url": "https://www.mercedesamgf1.com/news/team-celebrates-world-championships-at-brackley-and-brixworth"
+ },
+ "briefs": [
+  {
+   "series": "F1",
+   "text": "In Mexico City Liam Lawson started from the pit lane after a qualifying disqualification and finished seventh.",
+   "source": {
+    "name": "Racing Bulls",
+    "url": "https://www.visacashapprb.com/int-en/2026-mexico-city-grand-prix-debrief"
+   }
+  },
+  {
+   "series": "F1",
+   "text": "Checo Perez finished 17th in Mexico City on his 300th Grand Prix start.",
+   "source": {
+    "name": "Cadillac F1",
+    "url": "https://www.cadillacf1team.com/news/2026-mexico-city-grand-prix-race-report"
+   }
+  },
+  {
+   "series": "F1",
+   "text": "After their Mexico run-in, Charles Leclerc and Lewis Hamilton met Fred Vasseur in Brazil to talk it through.",
+   "source": {
+    "name": "The Race",
+    "url": "https://www.the-race.com/formula-1/ferrari-leclerc-hamilton-f1-problem-far-from-solved/"
+   }
+  },
+  {
+   "series": "F1",
+   "text": "Audi's appeal over Yuki Tsunoda's Monza grid position will be heard by the FIA International Court of Appeal on 25 November.",
+   "source": {
+    "name": "The Race",
+    "url": "https://www.the-race.com/formula-1/audi-appeal-f1-italian-gp-yuki-tsunoda/"
+   }
+  },
+  {
+   "series": "F1",
+   "text": "Williams will run a one-off chrome livery in Las Vegas with title partner Atlassian.",
+   "source": {
+    "name": "Formula1.com",
+    "url": "https://www.formula1.com/en/latest/article/williams-unveil-special-one-off-livery-for-las-vegas-grand-prix.01klQqq0PYu7wjugCtr98K"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "when": "Thu 19 - Sat 21 Nov",
+   "what": "F1 Las Vegas Grand Prix, Round 21: qualifying Friday 8pm, race Saturday 8pm local"
+  },
+  {
+   "when": "Wed 25 Nov",
+   "what": "FIA International Court of Appeal: Audi's Monza appeal"
+  }
+ ],
+ "next_week_hook": "Las Vegas Grand Prix, Saturday 21 November, 8pm local time.",
+ "storyline_updates": [
+  {
+   "id": "f1_2026_drivers_title",
+   "status": "closed",
+   "note": "Antonelli champion (sealed in Mexico City)."
+  },
+  {
+   "id": "f1_2026_constructors_title",
+   "status": "closed",
+   "note": "Mercedes, ninth title, clinched in Sao Paulo."
+  },
+  {
+   "id": "f1_2026_p2_drivers",
+   "status": "ongoing",
+   "note": "Verstappen second; 33 points cover Verstappen, Russell, Hamilton, Leclerc, Norris (before Vegas)."
+  },
+  {
+   "id": "f1_2026_p3_teams",
+   "status": "ongoing",
+   "note": "Red Bull 17 points ahead of McLaren (before Vegas)."
+  },
+  {
+   "id": "f2_2026_title",
+   "status": "ongoing",
+   "note": "Camara leads Tsolov by 7 points; Qatar and Abu Dhabi to come."
+  },
+  {
+   "id": "racing_bulls_2027_seats",
+   "status": "closed",
+   "note": "Lawson and Lindblad stay; Tsolov reserve for both Red Bull teams."
+  },
+  {
+   "id": "fe_gen4",
+   "status": "new",
+   "note": "GEN4 testing this week; we have no readable source yet."
+  }
+ ]
+}

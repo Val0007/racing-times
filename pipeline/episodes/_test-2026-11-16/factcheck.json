@@ -1,0 +1,411 @@
+{
+ "script_sha": "07d1efdf85ae10e6",
+ "checked_at": "2026-11-16T17:44:04Z",
+ "result": "fail",
+ "lines": [
+  {
+   "segment": "cold_open",
+   "index": 0,
+   "kind": "fact",
+   "text": "Rain at Interlagos, a title for Mercedes, and a brand new Formula E car on track today.",
+   "verdict": "ok",
+   "source": "https://www.silverstone.co.uk/news/f1-2026-sao-paulo-grand-prix-results-norris-dominates-tricky-conditions-interlagos",
+   "note": "Rain returned, Mercedes title, Gen4 testing starts 16 Nov all supported."
+  },
+  {
+   "segment": "headlines",
+   "index": 1,
+   "kind": "fact",
+   "text": "Lando Norris masters the rain in Brazil.",
+   "verdict": "ok",
+   "source": "https://www.silverstone.co.uk/news/f1-2026-sao-paulo-grand-prix-results-norris-dominates-tricky-conditions-interlagos",
+   "note": ""
+  },
+  {
+   "segment": "headlines",
+   "index": 2,
+   "kind": "fact",
+   "text": "Mercedes are constructors' champions.",
+   "verdict": "ok",
+   "source": "https://www.silverstone.co.uk/news/f1-2026-sao-paulo-grand-prix-results-norris-dominates-tricky-conditions-interlagos",
+   "note": ""
+  },
+  {
+   "segment": "headlines",
+   "index": 3,
+   "kind": "fact",
+   "text": "Formula E's GEN4 era begins at Jarama.",
+   "verdict": "ok",
+   "source": "https://www.silverstone.co.uk/news/f1-2026-sao-paulo-grand-prix-results-norris-dominates-tricky-conditions-interlagos",
+   "note": ""
+  },
+  {
+   "segment": "headlines",
+   "index": 4,
+   "kind": "fact",
+   "text": "And a home debut nobody saw coming.",
+   "verdict": "ok",
+   "source": "https://www.silverstone.co.uk/news/f1-2026-sao-paulo-grand-prix-results-norris-dominates-tricky-conditions-interlagos",
+   "note": ""
+  },
+  {
+   "segment": "brazil_gp",
+   "index": 1,
+   "kind": "fact",
+   "text": "Lando Norris won from pole, by fourteen point six seconds.",
+   "verdict": "ok",
+   "source": "https://www.silverstone.co.uk/news/f1-2026-sao-paulo-grand-prix-results-norris-dominates-tricky-conditions-interlagos",
+   "note": "Pole (Silverstone), +14.602 (The Race)."
+  },
+  {
+   "segment": "brazil_gp",
+   "index": 2,
+   "kind": "fact",
+   "text": "And the weather just would not make up its mind, all seventy-one laps of it.",
+   "verdict": "ok",
+   "source": "https://www.planetf1.com/news/f1-results-sao-paulo-grand-prix-2026-race-brazil",
+   "note": "71 laps (PlanetF1); changing weather (The Race)."
+  },
+  {
+   "segment": "brazil_gp",
+   "index": 3,
+   "kind": "fact",
+   "text": "Kimi Antonelli actually jumped him at the start, and led until the first stops.",
+   "verdict": "unsupported",
+   "source": "https://www.silverstone.co.uk/news/f1-2026-sao-paulo-grand-prix-results-norris-dominates-tricky-conditions-interlagos",
+   "note": "Silverstone: Antonelli got ahead at Turn 1 and led, but retook-lead-by-Norris came after Antonelli spun on lap 20; PlanetF1 same. No source says he led 'until the first stops'. Say 'and led for a good part of the race' or 'until a spin on lap 20'."
+  },
+  {
+   "segment": "brazil_gp",
+   "index": 4,
+   "kind": "fact",
+   "text": "Charles Leclerc picked up a five-second penalty for forcing Liam Lawson wide, which handed seventh to Lawson.",
+   "verdict": "ok",
+   "source": "https://www.the-race.com/formula-1/f1-2026-brazilian-grand-prix-race-result/",
+   "note": ""
+  },
+  {
+   "segment": "brazil_gp",
+   "index": 5,
+   "kind": "fact",
+   "text": "No crashes, no safety car, in the wet, in Brazil.",
+   "verdict": "ok",
+   "source": "https://www.gpfans.com/en/f1-news/1092666/f1-brazilian-grand-prix-2026-results-times-positions/",
+   "note": "GPFans: no one crashed out, safety car never deployed."
+  },
+  {
+   "segment": "brazil_gp",
+   "index": 6,
+   "kind": "opinion",
+   "text": "Honestly? Somebody check the calendar.",
+   "verdict": "skip",
+   "source": "https://www.gpfans.com/en/f1-news/1092666/f1-brazilian-grand-prix-2026-results-times-positions/",
+   "note": ""
+  },
+  {
+   "segment": "verstappen_comeback",
+   "index": 2,
+   "kind": "fact",
+   "text": "Max Verstappen started twenty-first, after grid penalties, and finished second.",
+   "verdict": "ok",
+   "source": "https://www.gpfans.com/en/f1-news/1092666/f1-brazilian-grand-prix-2026-results-times-positions/",
+   "note": "21st confirmed; grid muddled by wet quali and penalties."
+  },
+  {
+   "segment": "verstappen_comeback",
+   "index": 4,
+   "kind": "anecdote",
+   "text": "In twenty twenty-four he won this race from seventeenth on the grid, in the rain.",
+   "verdict": "ok",
+   "source": "https://www.aljazeera.com/sports/2024/11/4/stunning-verstappen-wins-wet-sao-paulo-grand-prix-from-17th-on-the-grid",
+   "note": "Matches anecdotes.json; 17th, wet confirmed. 'Not his first Interlagos rescue' is fair."
+  },
+  {
+   "segment": "verstappen_comeback",
+   "index": 5,
+   "kind": "fact",
+   "text": "Team-mate Isack Hadjar came home third, so that's a double podium for Red Bull.",
+   "verdict": "ok",
+   "source": "https://www.the-race.com/formula-1/f1-2026-brazilian-grand-prix-race-result/",
+   "note": ""
+  },
+  {
+   "segment": "mercedes_title",
+   "index": 1,
+   "kind": "fact",
+   "text": "George Russell finished fourth and Kimi Antonelli fifth.",
+   "verdict": "ok",
+   "source": "https://www.silverstone.co.uk/news/f1-2026-sao-paulo-grand-prix-results-norris-dominates-tricky-conditions-interlagos",
+   "note": ""
+  },
+  {
+   "segment": "mercedes_title",
+   "index": 2,
+   "kind": "fact",
+   "text": "And that made Mercedes the twenty twenty-six constructors' champions.",
+   "verdict": "ok",
+   "source": "https://www.silverstone.co.uk/news/f1-2026-sao-paulo-grand-prix-results-norris-dominates-tricky-conditions-interlagos",
+   "note": "Silverstone confirms."
+  },
+  {
+   "segment": "mercedes_title",
+   "index": 3,
+   "kind": "anecdote",
+   "text": "Interlagos again, Pix! They clinched the constructors' title here in twenty eighteen too, the day Hamilton won.",
+   "verdict": "ok",
+   "source": "https://www.formula1.com/en/latest/article/winners-and-losers-brazilian-grand-prix-edition.M4DQpRpMm4sYC82KEg0kW",
+   "note": "Confirmed on page."
+  },
+  {
+   "segment": "gen4",
+   "index": 1,
+   "kind": "fact",
+   "text": "From today until Friday, the whole grid is testing at Jarama.",
+   "verdict": "ok",
+   "source": "https://www.fia.com/news/circuito-de-madrid-jarama-race-host-formula-e-pre-season-testing-gen4-era",
+   "note": "16-20 Nov confirmed."
+  },
+  {
+   "segment": "gen4",
+   "index": 2,
+   "kind": "fact",
+   "text": "It's the GEN4 car's first collective test, and the series calls it its most advanced and powerful car yet.",
+   "verdict": "ok",
+   "source": "https://www.fia.com/news/circuito-de-madrid-jarama-race-host-formula-e-pre-season-testing-gen4-era",
+   "note": ""
+  },
+  {
+   "segment": "gen4",
+   "index": 3,
+   "kind": "fact",
+   "text": "Season thirteen is the biggest so far: twenty-one races at thirteen events in eleven countries.",
+   "verdict": "wrong",
+   "source": "https://news.cgtn.com/news/2026-09-17/Formula-E-secures-long-term-future-in-China-new-team-joins-the-grid--1QvQi8clngI/p.html",
+   "note": "'Biggest' is not in any source I read; CGTN says 'longest in Formula E history' with 21 rounds. Thirteen events / eleven countries could not be verified (Band page blocked, FIA/CGTN have no count). Use 'the longest season yet, with twenty-one races' unless the Band source confirms 13/11."
+  },
+  {
+   "segment": "gen4",
+   "index": 4,
+   "kind": "fact",
+   "text": "It opens with a night double-header in Jeddah on the eighteenth and nineteenth of December, and Opel joins as a new manufacturer.",
+   "verdict": "ok",
+   "source": "https://www.autocarindia.com/motor-sports-news/mahindra-formula-e-retains-de-vries-mortara-440879",
+   "note": "Dates and Opel confirmed. 'Night' not verified. Time-sensitive: CGTN notes 'heavy doubt' over the Jeddah opener due to regional conflict; re-check before publishing."
+  },
+  {
+   "segment": "gen4",
+   "index": 5,
+   "kind": "fact",
+   "text": "On the grid, Nissan pairs Oliver Rowland with Zane Maloney, and Jake Hughes returns at Cupra Kiro in place of Dan Ticktum.",
+   "verdict": "ok",
+   "source": "https://racingnews365.com/major-formula-e-shock-as-cupra-kiro-reveal-dan-ticktum-replacement",
+   "note": "Nissan release also confirms."
+  },
+  {
+   "segment": "gen4",
+   "index": 6,
+   "kind": "fact",
+   "text": "Pascal Wehrlein starts the new era as champion.",
+   "verdict": "unsupported",
+   "source": "https://global.nissannews.com/en/releases/nissan-formula-e-team-confirms-zane-maloney-alongside-oliver-rowland-for-season-13",
+   "note": "No source in the notes or fetched pages names Wehrlein as Season 12 champion (Nissan says only Rowland was Season 11 champion). Cut or add a source."
+  },
+  {
+   "segment": "camara",
+   "index": 1,
+   "kind": "link",
+   "text": "Byte, you wanted this one.",
+   "verdict": "skip",
+   "source": "",
+   "note": ""
+  },
+  {
+   "segment": "camara",
+   "index": 1,
+   "kind": "fact",
+   "text": "Did I ever! Rafael Camara, twenty-one, made his Grand Prix debut for Haas, at home in São Paulo.",
+   "verdict": "ok",
+   "source": "https://racingnews365.com/who-is-rafael-camara-the-f1-rookie-set-for-baptism-of-fire",
+   "note": ""
+  },
+  {
+   "segment": "camara",
+   "index": 2,
+   "kind": "fact",
+   "text": "He's signed for twenty twenty-seven, but Haas had confirmed Esteban Ocon would not return, so in he went.",
+   "verdict": "ok",
+   "source": "https://www.formula1.com/en/latest/article/f2-racer-camara-to-make-formula-1-debut-for-haas-at-sao-paulo-grand-prix.12Qa0tpaMZ9kgnEuGJBKFp",
+   "note": ""
+  },
+  {
+   "segment": "camara",
+   "index": 3,
+   "kind": "fact",
+   "text": "With Gabriel Bortoleto in the Audi, Brazil had two home drivers in an F1 race for the first time since twenty sixteen.",
+   "verdict": "ok",
+   "source": "https://www.mykhel.com/motorsport/brazilian-grand-prix-rafael-camara-joins-gabriel-bortoleto-on-f1-grid-ending-brazils-decade-long-458267.html",
+   "note": ""
+  },
+  {
+   "segment": "camara",
+   "index": 4,
+   "kind": "anecdote",
+   "text": "Twenty sixteen! Felipe Massa retired after an accident that day, and Felipe Nasr came from twenty-first on the grid to finish ninth.",
+   "verdict": "ok",
+   "source": "https://en.wikipedia.org/wiki/2016_Brazilian_Grand_Prix",
+   "note": "Re-checked table: Nasr grid 21, 9th; Massa Ret, Accident."
+  },
+  {
+   "segment": "alan_jones",
+   "index": 1,
+   "kind": "fact",
+   "text": "Alan Jones died on the fifth of November, aged eighty, after a short illness.",
+   "verdict": "ok",
+   "source": "https://www.crash.net/f1/news/1109325/1/first-williams-f1-world-champion-alan-jones-dies-aged-80",
+   "note": ""
+  },
+  {
+   "segment": "alan_jones",
+   "index": 2,
+   "kind": "fact",
+   "text": "He won twelve Grands Prix between nineteen seventy-five and nineteen eighty-six.",
+   "verdict": "ok",
+   "source": "https://www.planetf1.com/news/williams-alan-jones-1980-f1-world-champion-death",
+   "note": ""
+  },
+  {
+   "segment": "alan_jones",
+   "index": 3,
+   "kind": "fact",
+   "text": "Five of them came in nineteen eighty, and brought him the title in the Williams FW07B, the team's first.",
+   "verdict": "unsupported",
+   "source": "https://www.autosport.com/f1/news/1980-f1-world-champion-alan-jones-dies-aged-80/10871644/",
+   "note": "Five 1980 wins and Williams' first champion confirmed (Crash, Autosport, PlanetF1). The FW07B car is not named as the title car in any fetched source (Autosport only shows a photo). Cut 'FW07B' or add a source."
+  },
+  {
+   "segment": "alan_jones",
+   "index": 4,
+   "kind": "fact",
+   "text": "He remains the last Australian to win the championship.",
+   "verdict": "ok",
+   "source": "https://www.crash.net/f1/news/1109325/1/first-williams-f1-world-champion-alan-jones-dies-aged-80",
+   "note": ""
+  },
+  {
+   "segment": "briefs",
+   "index": 1,
+   "kind": "fact",
+   "text": "Arvid Lindblad finished just outside the points in eleventh for Racing Bulls.",
+   "verdict": "ok",
+   "source": "https://www.silverstone.co.uk/news/f1-2026-sao-paulo-grand-prix-results-norris-dominates-tricky-conditions-interlagos",
+   "note": ""
+  },
+  {
+   "segment": "briefs",
+   "index": 2,
+   "kind": "fact",
+   "text": "Formula E will race twice in Shanghai, and Sanya moves to April twenty twenty-seven.",
+   "verdict": "ok",
+   "source": "https://news.cgtn.com/news/2026-09-17/Formula-E-secures-long-term-future-in-China-new-team-joins-the-grid--1QvQi8clngI/p.html",
+   "note": ""
+  },
+  {
+   "segment": "briefs",
+   "index": 3,
+   "kind": "fact",
+   "text": "In IndyCar, Christian Lundgaard has signed a multi-year deal with Chip Ganassi Racing, taking Scott Dixon's seat, and Dennis Hauger is Rookie of the Year.",
+   "verdict": "unsupported",
+   "source": "https://frontstretch.com/articles/indycar/indycar-news",
+   "note": "Frontstretch returned 403; no other source checked. Could not verify."
+  },
+  {
+   "segment": "briefs",
+   "index": 4,
+   "kind": "fact",
+   "text": "And Jack Harvey has announced a cancer diagnosis. He still intends to race in the twenty twenty-seven Indianapolis five hundred, and we wish him well.",
+   "verdict": "unsupported",
+   "source": "https://frontstretch.com/articles/indycar/indycar-news",
+   "note": "Sensitive health claim; source unreachable (403). Do not air unverified. Tone otherwise fine."
+  },
+  {
+   "segment": "sign_off",
+   "index": 0,
+   "kind": "fact",
+   "text": "Next up, the lights go out on the Las Vegas Strip, from the nineteenth to the twenty-first of November.",
+   "verdict": "ok",
+   "source": "https://www.formula1.com/en/racing/2026.html",
+   "note": "Round 21, 19-21 Nov."
+  },
+  {
+   "segment": "sign_off",
+   "index": 1,
+   "kind": "fact",
+   "text": "Then it's Qatar on the twenty-ninth.",
+   "verdict": "ok",
+   "source": "https://www.formula1.com/en/racing/2026.html",
+   "note": "Weekend 27-29 Nov; race Sunday 29th."
+  }
+ ],
+ "graphics": [
+  {
+   "segment": "brazil_gp",
+   "field": "graphic_b.rows[0..4]",
+   "verdict": "ok",
+   "note": "Gaps +14.6, +24.5, +34.0, +41.0 match The Race/Silverstone."
+  },
+  {
+   "segment": "brazil_gp",
+   "field": "lower_third",
+   "verdict": "ok",
+   "note": "Round 20 confirmed."
+  },
+  {
+   "segment": "verstappen_comeback",
+   "field": "graphic p1",
+   "verdict": "ok",
+   "note": "P2, started 21st."
+  },
+  {
+   "segment": "headlines",
+   "field": "graphic.items",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "gen4",
+   "field": "graphic.lines",
+   "verdict": "ok",
+   "note": "Jeddah 18-19 Dec: re-check for regional-conflict doubt."
+  },
+  {
+   "segment": "alan_jones",
+   "field": "graphic.lines / lower_third",
+   "verdict": "ok",
+   "note": "1980 title, 1946-2026."
+  },
+  {
+   "segment": "briefs",
+   "field": "graphic.items[3]",
+   "verdict": "wrong",
+   "note": "HAUGER: ROOKIE OF YEAR unverified (Frontstretch 403). Cut with the line."
+  },
+  {
+   "segment": "briefs",
+   "field": "graphic.items[0..2]",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "sign_off",
+   "field": "graphic nextup",
+   "verdict": "ok",
+   "note": "Las Vegas 19-21 Nov, Qatar 29 Nov, Jeddah 18-19 Dec."
+  },
+  {
+   "segment": "desk",
+   "field": "desk_display.next",
+   "verdict": "ok",
+   "note": ""
+  }
+ ]
+}

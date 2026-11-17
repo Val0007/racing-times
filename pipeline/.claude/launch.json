@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "show-3d",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["show-3d/serve.py"],
+      "port": 8765
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+# Where Racing Times looks for news.
+# kind: rss      -> parsed directly (cheapest, most reliable)
+#       sitemap  -> news sitemap, newest <url> entries
+#       page     -> a news listing page; a small model pulls the article links out
+# Add teams freely. Run `python run.py discover` to let the agent find feeds for
+# any entry that only has a homepage.
+
+sources:
+  # ── Series / governing bodies ─────────────────────────────
+  - {name: Formula1.com,        series: F1,   kind: page, url: "https://www.formula1.com/en/latest/all"}
+  - {name: FIA,                 series: F1,   kind: page, url: "https://www.fia.com/news"}
+  - {name: Formula 2,           series: F2,   kind: page, url: "https://www.fiaformula2.com/Latest"}
+  - {name: Formula 3,           series: F3,   kind: page, url: "https://www.fiaformula3.com/Latest"}
+  - {name: Formula E,           series: FE,   kind: page, url: "https://www.fiaformulae.com/en/news"}
+  - {name: IndyCar,             series: INDY, kind: page, url: "https://www.indycar.com/news"}
+
+  # ── F1 teams (press/news pages; most also publish photos for editorial use) ──
+  - {name: Mercedes-AMG F1,     series: F1,   kind: page, url: "https://www.mercedesamgf1.com/news"}
+  - {name: McLaren,             series: F1,   kind: page, url: "https://www.mclaren.com/racing/latest/"}
+  - {name: Ferrari,             series: F1,   kind: page, url: "https://www.ferrari.com/en-EN/formula1/news"}
+  - {name: Red Bull Racing,     series: F1,   kind: page, url: "https://www.redbullracing.com/int-en/news"}
+  - {name: Williams,            series: F1,   kind: page, url: "https://www.williamsf1.com/posts"}
+  - {name: Haas,                series: F1,   kind: page, url: "https://www.haasf1team.com/news"}
+  - {name: Alpine,              series: F1,   kind: page, url: "https://www.alpinecars.com/en/formula-1/news/"}
+  - {name: Aston Martin,        series: F1,   kind: page, url: "https://www.astonmartinf1.com/en-GB/news"}
+  - {name: Racing Bulls,        series: F1,   kind: page, url: "https://www.visacashapprb.com/int-en/news"}
+  - {name: Audi F1,             series: F1,   kind: page, url: "https://www.audif1.com/en/news"}
+  - {name: Cadillac F1,         series: F1,   kind: page, url: "https://www.cadillacf1team.com/news"}
+
+  # ── Independent press (summaries + links only) ───────────
+  - {name: The Race,            series: ALL,  kind: rss,  url: "https://www.the-race.com/feed/"}
+  - {name: Autosport,           series: ALL,  kind: rss,  url: "https://www.autosport.com/rss/feed/all"}
+  - {name: RACER,               series: ALL,  kind: rss,  url: "https://racer.com/feed/"}

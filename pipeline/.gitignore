@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+show-pixel/vendor/
+data/
+show-3d/stills/
+show-3d/video_only.mp4
+*.mp4
+.env
+*.wav
+show-3d/lookdev_stills/
+# third-party photos: credited, used under editorial terms, never committed
+show-3d/show/data/photos/
+episodes/*/photos/
+episodes/*/build/
+episodes/*/out/
+.DS_Store
+episodes/*/stills/
+data/tts_cache/
+
+# the public site is its own repo (Val0007/racing-times)
+site/

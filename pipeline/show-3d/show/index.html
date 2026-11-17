@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Racing Times 3D</title>
+<style>
+  /* served from the repo root: python3 show-3d/serve.py */
+  @font-face{font-family:"UnifrakturMaguntia";src:url(/show-3d/node_modules/@fontsource/unifrakturmaguntia/files/unifrakturmaguntia-latin-400-normal.woff2)}
+  @font-face{font-family:"Playfair Display";font-weight:900;src:url(/show-3d/node_modules/@fontsource/playfair-display/files/playfair-display-latin-900-normal.woff2)}
+  @font-face{font-family:"Playfair Display";font-weight:700;font-style:italic;src:url(/show-3d/node_modules/@fontsource/playfair-display/files/playfair-display-latin-700-italic.woff2)}
+  @font-face{font-family:"Inter";font-weight:400;src:url(/show-3d/node_modules/@fontsource/inter/files/inter-latin-400-normal.woff2)}
+  @font-face{font-family:"Inter";font-weight:600;src:url(/show-3d/node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2)}
+  @font-face{font-family:"Inter";font-weight:800;src:url(/show-3d/node_modules/@fontsource/inter/files/inter-latin-800-normal.woff2)}
+  @font-face{font-family:"Bebas Neue";src:url(/show-3d/node_modules/@fontsource/bebas-neue/files/bebas-neue-latin-400-normal.woff2)}
+  :root{--ink:#1b1a17;--paper:#f4efe4;--paper2:#cfc6b3;--red:#a3141b}
+  html,body{margin:0;background:#000;overflow:hidden;width:1280px;height:720px}
+  canvas{display:block}
+  .ov{position:absolute;pointer-events:none}
+  #bugL{left:34px;top:28px;display:flex;align-items:center;gap:12px}
+  #bugL .live{font:800 12px Inter;letter-spacing:.18em;color:var(--paper);background:var(--red);padding:5px 9px 4px;border-radius:2px}
+  #bugL .live i{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--paper);margin-right:7px;vertical-align:1px}
+  #bugL .wm{font:400 26px "UnifrakturMaguntia";color:var(--paper);text-shadow:0 1px 8px rgba(0,0,0,.6)}
+  #bugR{right:34px;top:32px;font:600 12px Inter;letter-spacing:.22em;color:rgba(244,239,228,.85);text-shadow:0 1px 6px rgba(0,0,0,.7)}
+  #lower{left:70px;top:470px;overflow:hidden}
+  #lower .bar{display:flex;align-items:stretch}
+  #lower .red{width:6px;background:var(--red)}
+  #lower .box{background:rgba(27,26,23,.92);padding:10px 26px 12px 18px}
+  #lower .t{font:400 42px/1 "Bebas Neue";letter-spacing:.04em;color:var(--paper)}
+  #lower .s{font:600 13px Inter;letter-spacing:.24em;color:var(--paper2);margin-top:6px;text-transform:uppercase}
+  #subs{left:0;right:0;bottom:34px;text-align:center}
+  #subs span{display:inline-block;max-width:900px;font:600 25px/1.35 Inter;color:var(--paper);background:rgba(27,26,23,.72);padding:6px 16px 7px;border-radius:4px;border-left:4px solid transparent}
+  #subs span.byte{border-left-color:var(--red)}
+  #title{left:0;right:0;top:250px;text-align:center}
+  #title .big{font:400 132px/1 "UnifrakturMaguntia";color:var(--paper);text-shadow:0 6px 30px rgba(0,0,0,.7)}
+  #title .rule{height:4px;width:140px;margin:18px auto 0;background:var(--red)}
+  #title .sub{font:600 15px Inter;letter-spacing:.5em;color:var(--paper2);margin-top:18px}
+  #credits{left:0;right:0;top:150px;text-align:center;color:var(--paper)}
+  #credits .logo{font:400 84px/1 "UnifrakturMaguntia";color:var(--paper)}
+  #credits .rule{height:4px;width:120px;margin:18px auto 22px;background:var(--red)}
+  #credits .h{font:600 13px Inter;letter-spacing:.42em;color:var(--paper2)}
+  #credits .n{font:400 30px/1.5 "Bebas Neue";letter-spacing:.08em;max-width:760px;margin:10px auto 0}
+  #credits .f{font:400 14px Inter;letter-spacing:.12em;color:rgba(244,239,228,.7);margin-top:26px}
+  #dip{inset:0;background:var(--ink);opacity:0}
+</style>
+<script type="importmap">{"imports":{"three":"/show-3d/node_modules/three/build/three.module.js","three/addons/":"/show-3d/node_modules/three/examples/jsm/"}}</script>
+</head>
+<body>
+<div id="bugL" class="ov"><span class="live"><i></i>LIVE</span><span class="wm">Racing Times</span></div>
+<div id="bugR" class="ov"></div>
+<div id="lower" class="ov"><div class="bar"><div class="red"></div><div class="box"><div class="t"></div><div class="s"></div></div></div></div>
+<div id="subs" class="ov"><span></span></div>
+<div id="title" class="ov"><div class="big">Racing Times</div><div class="rule"></div><div class="sub"></div></div>
+<div id="credits" class="ov"></div>
+<div id="dip" class="ov"></div>
+<script type="module" src="show.js"></script>
+</body>
+</html>

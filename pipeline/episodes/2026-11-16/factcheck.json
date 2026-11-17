@@ -1,0 +1,600 @@
+{
+ "script_sha": "0fdeb5bd8a470917",
+ "checked_at": "2026-11-17T02:43:41",
+ "result": "pass",
+ "lines": [
+  {
+   "segment": "cold_open",
+   "index": 1,
+   "kind": "fact",
+   "text": "Two weeks of news to catch up on, the youngest world champion in Formula One history, a ninth title for Mercedes... and honestly?",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "cold_open",
+   "index": 2,
+   "kind": "fact",
+   "text": "The fight for second is still wide open.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "headlines",
+   "index": 1,
+   "kind": "fact",
+   "text": "Kimi Antonelli? World champion!",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "headlines",
+   "index": 2,
+   "kind": "fact",
+   "text": "Lando Norris wins in the São Paulo rain.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "headlines",
+   "index": 3,
+   "kind": "fact",
+   "text": "Mercedes make it nine.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "headlines",
+   "index": 4,
+   "kind": "fact",
+   "text": "And Las Vegas? Two fights, three races, no mercy.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": "Two open fights (P2 drivers, P3 teams), three races. \"No mercy\" is rhetorical colour only; no factual claim."
+  },
+  {
+   "segment": "antonelli_1",
+   "index": 1,
+   "kind": "fact",
+   "text": "Kimi Antonelli is the twenty twenty-six Formula One world champion!",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "antonelli_1",
+   "index": 2,
+   "kind": "fact",
+   "text": "He sealed it in Mexico City with third place, on a podium with Max Verstappen and Lewis Hamilton... and three races still to go.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "antonelli_1",
+   "index": 3,
+   "kind": "fact",
+   "text": "Nine Grand Prix wins, seven more podiums. Not bad for a second season, is it?",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "antonelli_2",
+   "index": 0,
+   "kind": "fact",
+   "text": "He's now the youngest world champion the sport has ever had, and he took that record off Sebastian Vettel by over three years.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "antonelli_2",
+   "index": 1,
+   "kind": "fact",
+   "text": "He's also the first driver from Mercedes' own junior programme to win it with the works team.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "antonelli_2",
+   "index": 2,
+   "kind": "fact",
+   "text": "And guess what? At the twenty eighteen Italian Grand Prix, he was a twelve-year-old grid kid in the pre-race ceremonies.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "antonelli_2",
+   "index": 4,
+   "kind": "anecdote",
+   "text": "Pix! Vettel took that record off Lewis Hamilton in twenty ten, at Abu Dhabi, aged twenty-three!",
+   "verdict": "ok",
+   "source": "https://www.crash.net/f1/race-report/165065/1/vettel-victorious-as-title-rivals-tyre-out",
+   "note": "Within supported_wording: 2010 Abu Dhabi, replaced Hamilton; age 23 from Al Jazeera second source (23y134d). Crash.net itself gives no age."
+  },
+  {
+   "segment": "sao_paulo_1",
+   "index": 0,
+   "kind": "fact",
+   "text": "Now, São Paulo. Rain, a drying track, rain again... and Lando Norris won it, his third win of the season.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": "Weather wording now matches notes (wet-and-dry, rain returned late). Norris win and third of season in notes."
+  },
+  {
+   "segment": "sao_paulo_1",
+   "index": 1,
+   "kind": "fact",
+   "text": "Max Verstappen second, fourteen point six seconds back, and Isack Hadjar third. A Red Bull double podium!",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "sao_paulo_1",
+   "index": 2,
+   "kind": "fact",
+   "text": "Charles Leclerc? Five-second penalty for pushing Liam Lawson wide, and that swapped their places for seventh.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "sao_paulo_2",
+   "index": 0,
+   "kind": "fact",
+   "text": "Antonelli and Ollie Bearman picked up five seconds each too, for unsafe pit releases.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "sao_paulo_2",
+   "index": 1,
+   "kind": "fact",
+   "text": "And the rain came back with fewer than ten laps to go. Of course it did.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "sao_paulo_2",
+   "index": 2,
+   "kind": "fact",
+   "text": "Spare a thought for Valtteri Bottas, though. He didn't even start: a cross-threaded wheel nut, found on the way to the grid.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "mercedes_1",
+   "index": 2,
+   "kind": "fact",
+   "text": "Russell fourth, Antonelli fifth in São Paulo, and that sealed the constructors' title for Mercedes.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "mercedes_1",
+   "index": 3,
+   "kind": "fact",
+   "text": "Their ninth! Their first since twenty twenty-one, and twelve race wins this season.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "mercedes_1",
+   "index": 5,
+   "kind": "fact",
+   "text": "And nine titles puts them level with Williams.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "mercedes_2",
+   "index": 0,
+   "kind": "anecdote",
+   "text": "Now THAT takes me back... Williams won all nine of theirs between nineteen eighty and nineteen ninety-seven!",
+   "verdict": "ok",
+   "source": "https://en.wikipedia.org/wiki/Williams_Racing",
+   "note": "Nine titles, 1980 to 1997 confirmed."
+  },
+  {
+   "segment": "mercedes_2",
+   "index": 1,
+   "kind": "fact",
+   "text": "And Toto Wolff is now level with Sir Frank Williams, on nine constructors' titles as a team boss.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "mercedes_2",
+   "index": 3,
+   "kind": "fact",
+   "text": "And the new champion, in Mercedes' own words: \"I am incredibly proud to be World Champion.\"",
+   "verdict": "ok",
+   "source": "https://www.mercedesamgf1.com/news/team-celebrates-world-championships-at-brackley-and-brixworth",
+   "note": "Quote word for word (9 words, attributed to Antonelli via \"the new champion\"); Mercedes source."
+  },
+  {
+   "segment": "vegas_preview",
+   "index": 1,
+   "kind": "fact",
+   "text": "Las Vegas is round twenty-one, with three races left.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "vegas_preview",
+   "index": 2,
+   "kind": "fact",
+   "text": "Max Verstappen is second behind Antonelli, after eight straight podiums... three of them wins.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "vegas_preview",
+   "index": 3,
+   "kind": "fact",
+   "text": "And just thirty-three points cover Verstappen, George Russell, Lewis Hamilton, Charles Leclerc and Lando Norris!",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "vegas_preview",
+   "index": 4,
+   "kind": "fact",
+   "text": "In the teams' fight, Red Bull lead McLaren by seventeen points for third.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "camara_1",
+   "index": 1,
+   "kind": "fact",
+   "text": "Debut story! Rafael Camara keeps the Haas seat for Las Vegas!",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "camara_1",
+   "index": 2,
+   "kind": "fact",
+   "text": "His debut got pulled forward from twenty twenty-seven, after Haas split with Esteban Ocon.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "camara_1",
+   "index": 3,
+   "kind": "fact",
+   "text": "Twentieth in São Paulo? Last, two laps down? Sure.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "camara_1",
+   "index": 4,
+   "kind": "opinion",
+   "text": "But a debut, at home, in THAT weather? Respect.",
+   "verdict": "ok",
+   "source": "https://www.the-race.com/formula-1/vegas-gives-camara-chance-to-put-messy-debut-behind-him/",
+   "note": "Opinion; \"THAT weather\" backed by changing/rain-hit weekend. \"At home\" per anecdote entry, though The Race page does not itself state nationality."
+  },
+  {
+   "segment": "camara_2",
+   "index": 0,
+   "kind": "anecdote",
+   "text": "And it takes me back... Ayrton Senna's home debut, Rio, nineteen eighty-four, was over after eight laps.",
+   "verdict": "ok",
+   "source": "https://www.autosport.com/f1/news/on-this-day-ayrton-sennas-f1-debut-marred-by-early-retirement-in-rio/10807911/",
+   "note": "Eight laps confirmed; home debut in Rio 1984 per supported_wording."
+  },
+  {
+   "segment": "camara_2",
+   "index": 2,
+   "kind": "fact",
+   "text": "Plot twist: Camara LEADS the Formula Two standings, by seven points over Nikola Tsolov!",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "camara_2",
+   "index": 3,
+   "kind": "fact",
+   "text": "Ryo Hirakawa drives first practice in Vegas, after a point for tenth in Mexico City.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "racing_bulls_2027",
+   "index": 1,
+   "kind": "fact",
+   "text": "Racing Bulls are keeping Liam Lawson and Arvid Lindblad for twenty twenty-seven.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "racing_bulls_2027",
+   "index": 2,
+   "kind": "fact",
+   "text": "Lawson's ninth in the championship, best of the midfield.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "racing_bulls_2027",
+   "index": 3,
+   "kind": "fact",
+   "text": "And Tsolov? Official reserve for both Red Bull teams, with six Formula Two wins this season!",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "ladder_indycar",
+   "index": 0,
+   "kind": "fact",
+   "text": "Across the Atlantic... Alex Palou has won his fifth IndyCar title, the last four in a row, tying Sébastien Bourdais' record!",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "ladder_indycar",
+   "index": 1,
+   "kind": "fact",
+   "text": "Christian Lundgaard joins him at Chip Ganassi Racing, with Scott Dixon off to Arrow McLaren.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "ladder_indycar",
+   "index": 2,
+   "kind": "fact",
+   "text": "And Dale Coyne Racing has signed INDY NXT champion Nikita Johnson for twenty twenty-seven.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "ladder_f3",
+   "index": 0,
+   "kind": "fact",
+   "text": "Oh, and Formula Three champion Ugo Ugochukwu? Stepping up to Formula Two with Campos.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "briefs",
+   "index": 1,
+   "kind": "fact",
+   "text": "Mexico City: Liam Lawson, from the pit lane to seventh.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "briefs",
+   "index": 2,
+   "kind": "fact",
+   "text": "Checo Pérez finished seventeenth there, on his three hundredth Grand Prix start.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "briefs",
+   "index": 3,
+   "kind": "fact",
+   "text": "Ferrari: after their Mexico run-in, Charles Leclerc and Lewis Hamilton met Fred Vasseur in Brazil to talk it through.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "briefs",
+   "index": 4,
+   "kind": "fact",
+   "text": "Audi's appeal over Yuki Tsunoda's Monza grid position gets heard on the twenty-fifth of November.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "briefs",
+   "index": 5,
+   "kind": "fact",
+   "text": "And Williams go chrome in Las Vegas! A one-off livery.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "sign_off",
+   "index": 0,
+   "kind": "fact",
+   "text": "Next up... the lights go out on the Las Vegas Strip on Saturday, eight in the evening, local time.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  }
+ ],
+ "graphics": [
+  {
+   "segment": "cold_open",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "headlines",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "antonelli_1",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "antonelli_1",
+   "field": "graphic_b",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "antonelli_2",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "antonelli_2",
+   "field": "graphic_b",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "sao_paulo_1",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "sao_paulo_1",
+   "field": "graphic_b",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "sao_paulo_2",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "mercedes_1",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "mercedes_2",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "mercedes_2",
+   "field": "graphic_b",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "vegas_preview",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "vegas_preview",
+   "field": "graphic_b",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "camara_1",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "camara_2",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "racing_bulls_2027",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "racing_bulls_2027",
+   "field": "graphic_b",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "ladder_indycar",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "ladder_indycar",
+   "field": "graphic_b",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "ladder_f3",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "briefs",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "briefs",
+   "field": "graphic_b",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "sign_off",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": "matches notes"
+  },
+  {
+   "segment": "sign_off",
+   "field": "graphic_b",
+   "verdict": "ok",
+   "note": "matches notes"
+  }
+ ]
+}

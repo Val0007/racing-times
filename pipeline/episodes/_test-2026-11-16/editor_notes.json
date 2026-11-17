@@ -1,0 +1,420 @@
+{
+ "episode": 1,
+ "date": "2026-11-16",
+ "date_display": "16 NOV 2026",
+ "city": "Stockholm",
+ "cold_open_hook": "Rain at Interlagos, a title for Mercedes, and a brand new Formula E car on track today.",
+ "stories": [
+  {
+   "id": "brazil_gp",
+   "rank": 1,
+   "emphasis": "lead",
+   "speaker": "pixie",
+   "series": "F1",
+   "kicker": "Sao Paulo GP - Round 20",
+   "headline": "Norris masters the Interlagos rain",
+   "angle": "A calm win from pole in weather that kept changing; the real drama was behind him.",
+   "facts": [
+    "Lando Norris won the Sao Paulo Grand Prix from pole by 14.6 seconds.",
+    "The weather kept changing through the 71-lap race.",
+    "Kimi Antonelli jumped Norris at the start and led until the first stops.",
+    "No one crashed out and there was no safety car.",
+    "Charles Leclerc got a five-second penalty for forcing Liam Lawson wide, which handed seventh to Lawson."
+   ],
+   "results": {
+    "title": "SAO PAULO GRAND PRIX",
+    "rows": [
+     [
+      "1",
+      "NORRIS",
+      "MCL",
+      "WIN"
+     ],
+     [
+      "2",
+      "VERSTAPPEN",
+      "RBR",
+      "+14.6"
+     ],
+     [
+      "3",
+      "HADJAR",
+      "RBR",
+      "+24.5"
+     ],
+     [
+      "4",
+      "RUSSELL",
+      "MER",
+      "+34.0"
+     ],
+     [
+      "5",
+      "ANTONELLI",
+      "MER",
+      "+41.0"
+     ]
+    ]
+   },
+   "sources": [
+    {
+     "name": "The Race",
+     "title": "F1 2026 Brazilian Grand Prix race result",
+     "url": "https://www.the-race.com/formula-1/f1-2026-brazilian-grand-prix-race-result/"
+    },
+    {
+     "name": "PlanetF1",
+     "title": "Brazilian Grand Prix 2026 – F1 race results",
+     "url": "https://www.planetf1.com/news/f1-results-sao-paulo-grand-prix-2026-race-brazil"
+    },
+    {
+     "name": "GPFans",
+     "title": "F1 Brazilian Grand Prix 2026 results",
+     "url": "https://www.gpfans.com/en/f1-news/1092666/f1-brazilian-grand-prix-2026-results-times-positions/"
+    },
+    {
+     "name": "Silverstone",
+     "title": "Norris dominates tricky conditions at Interlagos",
+     "url": "https://www.silverstone.co.uk/news/f1-2026-sao-paulo-grand-prix-results-norris-dominates-tricky-conditions-interlagos"
+    }
+   ],
+   "photo": true,
+   "sensitive": false,
+   "anecdote_facts": []
+  },
+  {
+   "id": "verstappen_comeback",
+   "rank": 2,
+   "emphasis": "major",
+   "speaker": "byte",
+   "series": "F1",
+   "kicker": "Drive of the day",
+   "headline": "Verstappen: twenty-first to second",
+   "angle": "Byte's segment: the comeback, and how it compares with Interlagos history.",
+   "facts": [
+    "Max Verstappen started 21st after grid penalties and finished second.",
+    "Team-mate Isack Hadjar finished third, a double podium for Red Bull."
+   ],
+   "sources": [
+    {
+     "name": "The Race",
+     "title": "F1 2026 Brazilian Grand Prix race result",
+     "url": "https://www.the-race.com/formula-1/f1-2026-brazilian-grand-prix-race-result/"
+    },
+    {
+     "name": "PlanetF1",
+     "title": "Brazilian Grand Prix 2026 – F1 race results",
+     "url": "https://www.planetf1.com/news/f1-results-sao-paulo-grand-prix-2026-race-brazil"
+    },
+    {
+     "name": "GPFans",
+     "title": "F1 Brazilian Grand Prix 2026 results",
+     "url": "https://www.gpfans.com/en/f1-news/1092666/f1-brazilian-grand-prix-2026-results-times-positions/"
+    },
+    {
+     "name": "Silverstone",
+     "title": "Norris dominates tricky conditions at Interlagos",
+     "url": "https://www.silverstone.co.uk/news/f1-2026-sao-paulo-grand-prix-results-norris-dominates-tricky-conditions-interlagos"
+    }
+   ],
+   "photo": false,
+   "sensitive": false,
+   "anecdote_facts": [
+    "Max Verstappen started 21st after grid penalties and finished 2nd at the 2026 Sao Paulo GP."
+   ]
+  },
+  {
+   "id": "mercedes_title",
+   "rank": 3,
+   "emphasis": "major",
+   "speaker": "pixie",
+   "series": "F1",
+   "kicker": "Constructors' championship",
+   "headline": "Mercedes are 2026 constructors' champions",
+   "angle": "Fourth and fifth was enough.",
+   "facts": [
+    "George Russell finished fourth and Kimi Antonelli fifth.",
+    "That made Mercedes the 2026 constructors' champions."
+   ],
+   "unverified": [
+    "'with races to spare': not confirmed by any source the anecdote-finder read; do not say it"
+   ],
+   "sources": [
+    {
+     "name": "The Race",
+     "title": "F1 2026 Brazilian Grand Prix race result",
+     "url": "https://www.the-race.com/formula-1/f1-2026-brazilian-grand-prix-race-result/"
+    },
+    {
+     "name": "PlanetF1",
+     "title": "Brazilian Grand Prix 2026 – F1 race results",
+     "url": "https://www.planetf1.com/news/f1-results-sao-paulo-grand-prix-2026-race-brazil"
+    },
+    {
+     "name": "GPFans",
+     "title": "F1 Brazilian Grand Prix 2026 results",
+     "url": "https://www.gpfans.com/en/f1-news/1092666/f1-brazilian-grand-prix-2026-results-times-positions/"
+    },
+    {
+     "name": "Silverstone",
+     "title": "Norris dominates tricky conditions at Interlagos",
+     "url": "https://www.silverstone.co.uk/news/f1-2026-sao-paulo-grand-prix-results-norris-dominates-tricky-conditions-interlagos"
+    }
+   ],
+   "photo": false,
+   "sensitive": false,
+   "anecdote_facts": [
+    "Mercedes clinched the 2026 F1 constructors' title at the Sao Paulo GP."
+   ]
+  },
+  {
+   "id": "gen4",
+   "rank": 4,
+   "emphasis": "major",
+   "speaker": "pixie",
+   "series": "FE",
+   "kicker": "Season 13 - GEN4",
+   "headline": "A new era rolls out at Jarama",
+   "angle": "Formula E's most powerful car runs as a full grid for the first time.",
+   "facts": [
+    "The whole Formula E grid tests at Circuito de Madrid Jarama from 16 to 20 November.",
+    "It is the GEN4 car's first collective test; the series calls it its most advanced and powerful car.",
+    "Season 13 has 21 races at 13 events in 11 countries.",
+    "It opens with a night double-header in Jeddah on 18 and 19 December.",
+    "Opel joins as a new manufacturer."
+   ],
+   "sources": [
+    {
+     "name": "FIA",
+     "title": "Jarama to host Formula E pre-season testing for GEN4 era",
+     "url": "https://www.fia.com/news/circuito-de-madrid-jarama-race-host-formula-e-pre-season-testing-gen4-era"
+    },
+    {
+     "name": "Band",
+     "title": "Fórmula E muda carro, formato e calendário para a era GEN4",
+     "url": "https://www.band.com.br/esportes/velocidade/formula-e-muda-carro-formato-e-calendario-para-a-era-gen4-em-2027"
+    },
+    {
+     "name": "CGTN",
+     "title": "Formula E secures long-term future in China, new team joins the grid",
+     "url": "https://news.cgtn.com/news/2026-09-17/Formula-E-secures-long-term-future-in-China-new-team-joins-the-grid--1QvQi8clngI/p.html"
+    }
+   ],
+   "photo": false,
+   "sensitive": false,
+   "anecdote_facts": []
+  },
+  {
+   "id": "camara",
+   "rank": 5,
+   "emphasis": "major",
+   "speaker": "byte",
+   "series": "F1",
+   "kicker": "Haas",
+   "headline": "Camara's surprise home debut",
+   "angle": "Byte: a Brazilian rookie at home, and two Brazilians on the grid again.",
+   "facts": [
+    "Rafael Camara, 21, a Ferrari Academy driver signed to Haas for 2027, made his Grand Prix debut in Sao Paulo.",
+    "Haas had confirmed Esteban Ocon would not return.",
+    "With Audi's Gabriel Bortoleto also racing, Brazil had two home drivers in an F1 race for the first time since 2016."
+   ],
+   "sources": [
+    {
+     "name": "Formula1.com",
+     "title": "Camara to make F1 debut at São Paulo GP as Haas confirm Ocon will not return",
+     "url": "https://www.formula1.com/en/latest/article/f2-racer-camara-to-make-formula-1-debut-for-haas-at-sao-paulo-grand-prix.12Qa0tpaMZ9kgnEuGJBKFp"
+    },
+    {
+     "name": "RacingNews365",
+     "title": "Who is Rafael Camara?",
+     "url": "https://racingnews365.com/who-is-rafael-camara-the-f1-rookie-set-for-baptism-of-fire"
+    },
+    {
+     "name": "myKhel",
+     "title": "Camara joins Bortoleto on F1 grid",
+     "url": "https://www.mykhel.com/motorsport/brazilian-grand-prix-rafael-camara-joins-gabriel-bortoleto-on-f1-grid-ending-brazils-decade-long-458267.html"
+    }
+   ],
+   "photo": true,
+   "sensitive": false,
+   "anecdote_facts": [
+    "Brazil had two home drivers on the F1 grid at the 2026 Sao Paulo GP, reported as the first time since 2016."
+   ]
+  },
+  {
+   "id": "alan_jones",
+   "rank": 6,
+   "emphasis": "major",
+   "speaker": "pixie",
+   "series": "F1",
+   "kicker": "Obituary",
+   "headline": "Alan Jones, 1946-2026",
+   "angle": "A respectful farewell: Williams' first world champion.",
+   "facts": [
+    "Alan Jones died on 5 November, aged 80, after a short illness.",
+    "He won 12 Grands Prix between 1975 and 1986.",
+    "Five wins in 1980 brought him the title in the Williams FW07B, the team's first.",
+    "He remains the last Australian to win the championship."
+   ],
+   "sources": [
+    {
+     "name": "Crash.net",
+     "title": "First Williams F1 world champion Alan Jones dies aged 80",
+     "url": "https://www.crash.net/f1/news/1109325/1/first-williams-f1-world-champion-alan-jones-dies-aged-80"
+    },
+    {
+     "name": "Autosport",
+     "title": "1980 F1 world champion Alan Jones dies aged 80",
+     "url": "https://www.autosport.com/f1/news/1980-f1-world-champion-alan-jones-dies-aged-80/10871644/"
+    },
+    {
+     "name": "PlanetF1",
+     "title": "Williams' first world champion dies aged 80",
+     "url": "https://www.planetf1.com/news/williams-alan-jones-1980-f1-world-champion-death"
+    }
+   ],
+   "photo": false,
+   "sensitive": true,
+   "anecdote_facts": []
+  },
+  {
+   "id": "fe_grid",
+   "rank": 7,
+   "emphasis": "minor",
+   "speaker": "pixie",
+   "series": "FE",
+   "kicker": "Driver market",
+   "headline": "The Season 13 grid takes shape",
+   "angle": "Quick round-up of line-ups.",
+   "facts": [
+    "Nissan pairs Oliver Rowland with Zane Maloney.",
+    "Mahindra keeps Nyck de Vries and Edoardo Mortara.",
+    "Jake Hughes returns at Cupra Kiro in place of Dan Ticktum.",
+    "Pascal Wehrlein starts the GEN4 era as champion."
+   ],
+   "sources": [
+    {
+     "name": "Nissan",
+     "title": "Nissan confirms Maloney alongside Rowland for Season 13",
+     "url": "https://global.nissannews.com/en/releases/nissan-formula-e-team-confirms-zane-maloney-alongside-oliver-rowland-for-season-13"
+    },
+    {
+     "name": "Autocar India",
+     "title": "Mahindra retains de Vries, Mortara",
+     "url": "https://www.autocarindia.com/motor-sports-news/mahindra-formula-e-retains-de-vries-mortara-440879"
+    },
+    {
+     "name": "RacingNews365",
+     "title": "Cupra Kiro reveal Dan Ticktum replacement",
+     "url": "https://racingnews365.com/major-formula-e-shock-as-cupra-kiro-reveal-dan-ticktum-replacement"
+    }
+   ],
+   "photo": false,
+   "sensitive": false,
+   "anecdote_facts": []
+  },
+  {
+   "id": "indycar",
+   "rank": 8,
+   "emphasis": "minor",
+   "speaker": "pixie",
+   "series": "INDY",
+   "kicker": "Off-season",
+   "headline": "Ganassi turns the page after Dixon",
+   "angle": "Off-season news; Jack Harvey's diagnosis handled with care.",
+   "facts": [
+    "Christian Lundgaard has signed a multi-year deal with Chip Ganassi Racing, taking Scott Dixon's seat.",
+    "Dennis Hauger is IndyCar's 2026 Rookie of the Year.",
+    "Jack Harvey has announced a cancer diagnosis and still intends to race in the 2027 Indianapolis 500."
+   ],
+   "sources": [
+    {
+     "name": "Frontstretch",
+     "title": "IndyCar News",
+     "url": "https://frontstretch.com/articles/indycar/indycar-news"
+    }
+   ],
+   "photo": false,
+   "sensitive": true,
+   "anecdote_facts": []
+  }
+ ],
+ "held": [
+  {
+   "id": "tsolov",
+   "reason": "Only a Formula1.com headline; no article to verify. Not in the show."
+  }
+ ],
+ "quote_story": null,
+ "quote": null,
+ "briefs": [
+  {
+   "series": "F1",
+   "text": "Charles Leclerc's five-second penalty for forcing Liam Lawson wide dropped the Ferrari driver behind the Racing Bulls car in Brazil.",
+   "source": {
+    "name": "The Race",
+    "url": "https://www.the-race.com/formula-1/f1-2026-brazilian-grand-prix-race-result/"
+   }
+  },
+  {
+   "series": "F1",
+   "text": "Arvid Lindblad finished just outside the points in 11th for Racing Bulls.",
+   "source": {
+    "name": "Silverstone",
+    "url": "https://www.silverstone.co.uk/news/f1-2026-sao-paulo-grand-prix-results-norris-dominates-tricky-conditions-interlagos"
+   }
+  },
+  {
+   "series": "FE",
+   "text": "Formula E will race twice in Shanghai and moves Sanya to April 2027.",
+   "source": {
+    "name": "CGTN",
+    "url": "https://news.cgtn.com/news/2026-09-17/Formula-E-secures-long-term-future-in-China-new-team-joins-the-grid--1QvQi8clngI/p.html"
+   }
+  },
+  {
+   "series": "INDY",
+   "text": "Dennis Hauger is IndyCar's 2026 Rookie of the Year.",
+   "source": {
+    "name": "Frontstretch",
+    "url": "https://frontstretch.com/articles/indycar/indycar-news"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "when": "Mon 16 – Fri 20 Nov",
+   "what": "Formula E pre-season testing, Circuito de Madrid Jarama: the GEN4 car's first group test"
+  },
+  {
+   "when": "Thu 19 – Sat 21 Nov",
+   "what": "F1 Las Vegas Grand Prix, on the Strip"
+  },
+  {
+   "when": "Sun 29 Nov",
+   "what": "F1 Qatar Grand Prix"
+  },
+  {
+   "when": "Fri 18 – Sat 19 Dec",
+   "what": "Formula E Season 13 opener, Jeddah night double-header"
+  }
+ ],
+ "next_week_hook": "Las Vegas Grand Prix, 19 to 21 November.",
+ "storyline_updates": [
+  {
+   "id": "f1_2026_titles",
+   "status": "ongoing",
+   "note": "Mercedes won the constructors' title in Sao Paulo."
+  },
+  {
+   "id": "fe_gen4",
+   "status": "new",
+   "note": "GEN4 testing at Jarama 16-20 Nov; season opens Jeddah 18-19 Dec."
+  },
+  {
+   "id": "camara_haas",
+   "status": "new",
+   "note": "Camara made his debut early, ahead of his 2027 Haas seat."
+  }
+ ]
+}

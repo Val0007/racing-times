@@ -1,0 +1,59 @@
+[
+ {
+  "fact": "Antonelli became the youngest F1 world champion in 2026, taking the record from Sebastian Vettel.",
+  "claim": "Vettel became F1's youngest champion with the 2010 title at Abu Dhabi, taking the record from Lewis Hamilton.",
+  "type": "same_subject",
+  "year": 2010,
+  "source_url": "https://www.crash.net/f1/race-report/165065/1/vettel-victorious-as-title-rivals-tyre-out",
+  "source_name": "Crash.net",
+  "second_source_url": "https://www.aljazeera.com/sports/2026/11/2/kimi-antonelli-becomes-formula-ones-youngest-world-champion-in-mexico-city",
+  "supported_wording": "Vettel took the youngest-champion record from Hamilton with the 2010 Abu Dhabi title, aged 23",
+  "evidence": [
+   "the German replacing Lewis Hamilton as the youngest champion in F1 history",
+   "win both the Abu Dhabi Grand Prix and the 2010 F1 world championship",
+   "23 years and 134 days old in 2010 (Al Jazeera)"
+  ]
+ },
+ {
+  "fact": "Mercedes won its ninth constructors' title, level with Williams on nine.",
+  "claim": "Williams won its nine constructors' championships between 1980 and 1997.",
+  "type": "stat",
+  "year": 1997,
+  "source_url": "https://en.wikipedia.org/wiki/Williams_Racing",
+  "source_name": "Wikipedia (Williams Racing)",
+  "second_source_url": "https://www.formula1.com/en/latest/article/rivals-congratulate-mercedes-on-2026-constructors-championship-after-sao-paulo-gp.5mQ3BkVs5HLP8LE8PduoWY",
+  "supported_wording": "Williams won nine constructors' championships between 1980 and 1997",
+  "evidence": [
+   "Williams won nine Constructors' Championships between 1980 and 1997."
+  ]
+ },
+ {
+  "fact": "Toto Wolff is level with Sir Frank Williams on nine constructors' titles.",
+  "claim": "Stefano Domenicali said Wolff's ninth title draws him level with Sir Frank Williams.",
+  "type": "same_subject",
+  "year": 2026,
+  "source_url": "https://www.formula1.com/en/latest/article/rivals-congratulate-mercedes-on-2026-constructors-championship-after-sao-paulo-gp.5mQ3BkVs5HLP8LE8PduoWY",
+  "source_name": "Formula1.com",
+  "second_source_url": "https://www.autoevolution.com/news/mercedes-amg-wins-2026-formula-1-constructors-title-bringing-their-total-to-nine-278150.html",
+  "supported_wording": "'draws level with' Sir Frank Williams (Domenicali, via Formula1.com); don't say 'most in history'",
+  "evidence": [
+   "draws level with the great Sir Frank Williams"
+  ]
+ },
+ {
+  "fact": "Rafael Camara made his F1 debut at home in Sao Paulo, finishing 20th.",
+  "claim": "Ayrton Senna made his F1 debut at the 1984 Brazilian Grand Prix in Rio, qualified 17th for Toleman and retired after eight laps.",
+  "type": "same_feat",
+  "year": 1984,
+  "source_url": "https://www.autosport.com/f1/news/on-this-day-ayrton-sennas-f1-debut-marred-by-early-retirement-in-rio/10807911/",
+  "source_name": "Autosport",
+  "second_source_url": "https://www.motorsport.com/f1/news/on-this-day-senna-makes-his-f1-debut-with-an-early-retirement-in-rio/10807887/",
+  "supported_wording": "home debut in Rio (Jacarepagua, not Interlagos), qualified 17th, retired after eight laps, Toleman",
+  "evidence": [
+   "On his debut, Senna qualified 17th",
+   "a home driver debuting on home soil",
+   "after just eight laps",
+   "driving for the modest Toleman team"
+  ]
+ }
+]

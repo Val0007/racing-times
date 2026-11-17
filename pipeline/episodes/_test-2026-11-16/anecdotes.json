@@ -1,0 +1,50 @@
+[
+  {
+    "fact": "Verstappen started 21st (after grid penalties) and finished 2nd at the 2026 Sao Paulo GP, in changing weather.",
+    "claim": "Verstappen won the 2024 Sao Paulo Grand Prix from 17th on the grid, in the wet.",
+    "type": "same_place",
+    "year": 2024,
+    "source_url": "https://www.aljazeera.com/sports/2024/11/4/stunning-verstappen-wins-wet-sao-paulo-grand-prix-from-17th-on-the-grid",
+    "source_name": "Al Jazeera",
+    "second_source_url": "https://cyprus-mail.com/2024/11/03/verstappen-takes-stunning-sao-paulo-win-from-17th-on-the-grid",
+    "supported_wording": "won from 17th on the grid in a wet, chaotic race",
+    "evidence": ["from 17th on the grid in Brazil", "wet and chaotic Sao Paulo race"],
+    "verified": "2026-11-16: claim re-checked against source_url by a separate fetch"
+  },
+  {
+    "fact": "Mercedes clinched the 2026 constructors' championship at the Sao Paulo GP.",
+    "claim": "Mercedes also clinched a constructors' title at Interlagos in 2018, on the day Lewis Hamilton won the race. It was part of five successive double championships.",
+    "type": "same_place",
+    "year": 2018,
+    "source_url": "https://www.formula1.com/en/latest/article/winners-and-losers-brazilian-grand-prix-edition.M4DQpRpMm4sYC82KEg0kW",
+    "source_name": "Formula1.com",
+    "second_source_url": "https://www.onmanorama.com/sports/motor-sports/2018/11/12/hamilton-wins-brazil-mercedes-take-f1-title.html",
+    "supported_wording": "clinched the constructors' championship at Interlagos in 2018, Hamilton won; 'five successive double world championships'",
+    "evidence": ["clinching the constructors' championship at Interlagos", "five successive double world championships", "Lewis Hamilton snatching victory"],
+    "verified": "2026-11-16: claim re-checked against source_url by a separate fetch"
+  },
+  {
+    "fact": "Brazil had two home drivers on the grid (Camara, Bortoleto) at the 2026 Sao Paulo GP.",
+    "claim": "The last time, in 2016, Felipe Massa and Felipe Nasr raced at home. Massa retired after an accident; Nasr came from 21st on the grid to finish 9th.",
+    "type": "same_place",
+    "year": 2016,
+    "source_url": "https://en.wikipedia.org/wiki/2016_Brazilian_Grand_Prix",
+    "source_name": "Wikipedia (race classification)",
+    "second_source_url": "https://www.mykhel.com/motorsport/brazilian-grand-prix-rafael-camara-joins-gabriel-bortoleto-on-f1-grid-ending-brazils-decade-long-458267.html",
+    "supported_wording": "Massa retired (accident); Nasr grid 21, finished 9th. myKhel: 'first time since 2016'",
+    "evidence": ["Massa: grid 13, Ret, Accident", "Nasr: grid 21, classified 9th, 2 points"],
+    "verified": "2026-11-16: CORRECTED. The agent said Nasr finished 10th; the source table says 9th"
+  },
+  {
+    "fact": "Brazil had two home drivers on the grid at the 2026 Sao Paulo GP.",
+    "claim": "It was the first time since 2016 that Brazil had two drivers on the grid at home.",
+    "type": "stat",
+    "year": 2016,
+    "source_url": "https://www.mykhel.com/motorsport/brazilian-grand-prix-rafael-camara-joins-gabriel-bortoleto-on-f1-grid-ending-brazils-decade-long-458267.html",
+    "source_name": "myKhel",
+    "second_source_url": "https://www.fanatik.com.tr/en/brazil-celebrates-return-of-two-home-drivers-to-formula-one-grid-at-interlagos-2643625",
+    "supported_wording": "'first time since 2016' or 'for the first time in a decade'; nothing stronger",
+    "evidence": ["two homegrown drivers on the Formula 1 grid for the first time since 2016"],
+    "verified": "2026-11-16: re-checked; the source is a pre-race report"
+  }
+]
