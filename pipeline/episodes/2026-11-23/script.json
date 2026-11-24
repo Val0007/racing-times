@@ -1,0 +1,1078 @@
+{
+ "show": "Racing Times",
+ "episode": 2,
+ "date_display": "23 NOV 2026",
+ "presenter": {
+  "name": "PIXIE",
+  "role": "PRESENTER",
+  "voice": "bf_emma",
+  "speed": 1.0
+ },
+ "cast": {
+  "pixie": {
+   "voice": "bf_emma",
+   "speed": 1.0
+  },
+  "byte": {
+   "voice": "bm_lewis",
+   "speed": 1.08
+  }
+ },
+ "desk_display": [
+  {
+   "kind": "title"
+  },
+  {
+   "kind": "live",
+   "text": "Live from Stockholm"
+  },
+  {
+   "kind": "next",
+   "items": [
+    "MERCEDES: SO CLOSE",
+    "PIASTRI: 17TH TO P3"
+   ]
+  }
+ ],
+ "segments": [
+  {
+   "id": "cold_open",
+   "graphic": {
+    "kind": "photo",
+    "story": "las_vegas_gp_result",
+    "n": 2,
+    "title": "VERSTAPPEN SURVIVES THE VEGAS MADNESS",
+    "kicker": "F1 - LAS VEGAS GP"
+   },
+   "shots": [
+    [
+     0,
+     "close"
+    ],
+    [
+     0.5,
+     "wide"
+    ]
+   ],
+   "lower_third": {
+    "title": "PIXIE",
+    "sub": "LIVE FROM STOCKHOLM"
+   },
+   "sentences": [
+    {
+     "text": "Three hundred and fifty-two overtakes. Thirty-five changes of lead.",
+     "kind": "fact",
+     "delivery": "excited"
+    },
+    {
+     "text": "And somehow, Max Verstappen still came out on top in Las Vegas.",
+     "kind": "fact",
+     "delivery": "deadpan"
+    },
+    {
+     "text": "Good evening, I'm Pixie, this is Racing Times... and Byte has not calmed down since.",
+     "kind": "link",
+     "delivery": "warm"
+    }
+   ]
+  },
+  {
+   "id": "headlines",
+   "point": true,
+   "graphic": {
+    "kind": "headlines",
+    "items": [
+     "VERSTAPPEN WINS IN VEGAS",
+     "MERCEDES: 3 LAPS SHORT",
+     "PIASTRI: 17TH TO PODIUM",
+     "LECLERC SPINS HAMILTON"
+    ]
+   },
+   "shots": [
+    [
+     0,
+     "wide"
+    ],
+    [
+     0.2,
+     "full"
+    ]
+   ],
+   "sentences": [
+    {
+     "text": "Here's what's on the grid tonight.",
+     "kind": "link",
+     "delivery": "neutral"
+    },
+    {
+     "text": "Verstappen wins in Vegas!",
+     "kind": "fact",
+     "delivery": "excited"
+    },
+    {
+     "text": "Mercedes, three laps from glory.",
+     "kind": "fact",
+     "delivery": "serious"
+    },
+    {
+     "text": "Piastri, seventeenth to the podium!",
+     "kind": "fact",
+     "delivery": "excited"
+    },
+    {
+     "text": "And Ferrari? Leclerc spins Hamilton. Again.",
+     "kind": "fact",
+     "delivery": "deadpan"
+    }
+   ]
+  },
+  {
+   "id": "vegas_1",
+   "point": true,
+   "graphic": {
+    "kind": "photo",
+    "story": "las_vegas_gp_result",
+    "n": 1,
+    "title": "VERSTAPPEN WINS A WILD LAS VEGAS GP",
+    "kicker": "F1 - LAS VEGAS GP"
+   },
+   "graphic_b": {
+    "kind": "results",
+    "title": "LAS VEGAS GRAND PRIX",
+    "rows": [
+     [
+      "1",
+      "VERSTAPPEN",
+      "RBR",
+      "WIN"
+     ],
+     [
+      "2",
+      "NORRIS",
+      "MCL",
+      "+0.639"
+     ],
+     [
+      "3",
+      "PIASTRI",
+      "MCL",
+      "+1.529"
+     ],
+     [
+      "4",
+      "ANTONELLI",
+      "MER",
+      "+2.574"
+     ],
+     [
+      "5",
+      "GASLY",
+      "ALP",
+      "+2.927"
+     ]
+    ]
+   },
+   "graphic_b_at": 0.45,
+   "shots": [
+    [
+     0,
+     "wide"
+    ],
+    [
+     0.2,
+     "full"
+    ],
+    [
+     0.45,
+     "full"
+    ],
+    [
+     0.85,
+     "close"
+    ]
+   ],
+   "lower_third": {
+    "title": "LAS VEGAS GP",
+    "sub": "ROUND 21 - THE STRIP"
+   },
+   "lower_third_at": 0.0,
+   "sentences": [
+    {
+     "text": "Right, Las Vegas. Where do I even start?",
+     "kind": "link",
+     "delivery": "question"
+    },
+    {
+     "text": "Max Verstappen won it, and led forty-five of the fifty laps.",
+     "kind": "fact",
+     "delivery": "neutral"
+    },
+    {
+     "text": "But the top five? Covered by three seconds at the flag!",
+     "kind": "fact",
+     "delivery": "excited"
+    },
+    {
+     "text": "Lando Norris second, six tenths back, and Oscar Piastri third.",
+     "kind": "fact",
+     "delivery": "neutral"
+    },
+    {
+     "text": "Then Kimi Antonelli and Pierre Gasly, both inside three seconds of the winner.",
+     "kind": "fact",
+     "delivery": "warm"
+    },
+    {
+     "text": "Fifty laps, and nobody breathed.",
+     "kind": "link",
+     "delivery": "deadpan"
+    }
+   ]
+  },
+  {
+   "id": "vegas_2",
+   "graphic": {
+    "kind": "p1",
+    "pos": "P1",
+    "name": "MAX VERSTAPPEN",
+    "team": "RBR",
+    "sub": "RED BULL - LAS VEGAS GP",
+    "stat": "WIN NO. 75"
+   },
+   "graphic_b": {
+    "kind": "photo",
+    "story": "las_vegas_gp_result",
+    "n": 2,
+    "title": "FOUR WINS IN THE LAST SIX RACES",
+    "kicker": "F1 - RED BULL"
+   },
+   "graphic_b_at": 0.45,
+   "shots": [
+    [
+     0,
+     "full"
+    ],
+    [
+     0.3,
+     "wide"
+    ],
+    [
+     0.45,
+     "full"
+    ],
+    [
+     0.8,
+     "close"
+    ]
+   ],
+   "sentences": [
+    {
+     "text": "That's win number seventy-five for Verstappen, and his third in Las Vegas.",
+     "kind": "fact",
+     "delivery": "excited"
+    },
+    {
+     "text": "His fourth win this year... and all four came in the last six Grands Prix.",
+     "kind": "fact",
+     "delivery": "neutral"
+    },
+    {
+     "text": "And pole? Antonelli was quickest in qualifying, but a new engine cost him five places, so Verstappen inherited it.",
+     "kind": "fact",
+     "delivery": "question"
+    },
+    {
+     "text": "Pix! He won the first one back, in twenty twenty-three, the first F1 race in Vegas since nineteen eighty-two!",
+     "kind": "anecdote",
+     "delivery": "excited",
+     "speaker": "byte",
+     "source": "https://en.wikipedia.org/wiki/Las_Vegas_Grand_Prix"
+    },
+    {
+     "text": "And Red Bull's boss Laurent Mekies? He says Max is \"from a different planet.\"",
+     "kind": "fact",
+     "delivery": "warm",
+     "speaker": "byte"
+    },
+    {
+     "text": "Thank you, Byte. Stay on the grid.",
+     "kind": "link",
+     "delivery": "aside"
+    }
+   ]
+  },
+  {
+   "id": "mercedes",
+   "point": true,
+   "graphic": {
+    "kind": "photo",
+    "story": "mercedes_late_collapse",
+    "n": 3,
+    "title": "THREE LAPS FROM GLORY",
+    "kicker": "F1 - MERCEDES"
+   },
+   "graphic_b": {
+    "kind": "photo",
+    "story": "mercedes_late_collapse",
+    "n": 2,
+    "title": "RUSSELL NINTH, ANTONELLI FOURTH",
+    "kicker": "F1 - MERCEDES"
+   },
+   "graphic_b_at": 0.5,
+   "shots": [
+    [
+     0,
+     "wide"
+    ],
+    [
+     0.2,
+     "full"
+    ],
+    [
+     0.5,
+     "full"
+    ],
+    [
+     0.85,
+     "close"
+    ]
+   ],
+   "sentences": [
+    {
+     "text": "Now, spare a thought for Mercedes.",
+     "kind": "link",
+     "delivery": "warm"
+    },
+    {
+     "text": "Fresh off the teams' title, they were in the fight for the win.",
+     "kind": "fact",
+     "delivery": "neutral"
+    },
+    {
+     "text": "Three laps to go: George Russell locks up and slides into the barrier at Turn Five.",
+     "kind": "fact",
+     "delivery": "serious"
+    },
+    {
+     "text": "He kept going, and finished ninth. No regrets about attacking, he says.",
+     "kind": "fact",
+     "delivery": "neutral"
+    },
+    {
+     "text": "Then, on the penultimate lap, Antonelli lifts, gets back on the throttle... and his battery deployment takes the hit.",
+     "kind": "fact",
+     "delivery": "serious"
+    },
+    {
+     "text": "Both McLarens go past. Fourth.",
+     "kind": "fact",
+     "delivery": "deadpan"
+    },
+    {
+     "text": "Toto Wolff reckons Antonelli would have just saved it over the line to win.",
+     "kind": "fact",
+     "delivery": "neutral"
+    },
+    {
+     "text": "So close you could taste the champagne. And then... not.",
+     "kind": "opinion",
+     "delivery": "deadpan"
+    }
+   ]
+  },
+  {
+   "id": "mclaren_1",
+   "speaker": "byte",
+   "graphic": {
+    "kind": "photo",
+    "story": "mclaren_double_podium",
+    "n": 1,
+    "title": "PIASTRI: FROM 17TH TO THE PODIUM",
+    "kicker": "F1 - MCLAREN"
+   },
+   "shots": [
+    [
+     0,
+     "wide"
+    ],
+    [
+     0.3,
+     "close"
+    ],
+    [
+     0.55,
+     "full"
+    ],
+    [
+     0.85,
+     "close"
+    ]
+   ],
+   "lower_third": {
+    "title": "BYTE",
+    "sub": "LIVE FROM THE GRID"
+   },
+   "lower_third_at": 0.12,
+   "sentences": [
+    {
+     "text": "Which brings us to McLaren. Byte, you're vibrating.",
+     "kind": "link",
+     "delivery": "question",
+     "speaker": "pixie"
+    },
+    {
+     "text": "Vibrating, Pix? I'm ORBITING!",
+     "kind": "link",
+     "delivery": "excited"
+    },
+    {
+     "text": "Oscar Piastri started SEVENTEENTH, after a power unit penalty...",
+     "kind": "fact",
+     "delivery": "neutral"
+    },
+    {
+     "text": "...and finished THIRD! Fourteen places! The biggest comeback of his career!",
+     "kind": "fact",
+     "delivery": "excited"
+    },
+    {
+     "text": "His first podium since Miami in May, too.",
+     "kind": "fact",
+     "delivery": "warm"
+    },
+    {
+     "text": "Seventeenth to third in Vegas traffic? That's not a race, Pix. That's a heist.",
+     "kind": "opinion",
+     "delivery": "deadpan"
+    }
+   ]
+  },
+  {
+   "id": "mclaren_2",
+   "speaker": "byte",
+   "graphic": {
+    "kind": "photo",
+    "story": "mclaren_double_podium",
+    "n": 2,
+    "title": "A MCLAREN DOUBLE PODIUM",
+    "kicker": "F1 - MCLAREN"
+   },
+   "graphic_b": {
+    "kind": "bigword",
+    "big": "9 PTS",
+    "lines": [
+     "RED BULL AHEAD OF MCLAREN",
+     "TWO ROUNDS LEFT"
+    ]
+   },
+   "graphic_b_at": 0.6,
+   "shots": [
+    [
+     0,
+     "close"
+    ],
+    [
+     0.3,
+     "full"
+    ],
+    [
+     0.6,
+     "full"
+    ],
+    [
+     0.85,
+     "wide"
+    ]
+   ],
+   "sentences": [
+    {
+     "text": "And it takes me back... Kimi Raikkonen, Suzuka, two thousand and five. Won it from seventeenth!",
+     "kind": "anecdote",
+     "delivery": "excited",
+     "source": "https://www.formula1.com/en/latest/article/greatest-races-13-kimi-raikkonens-sensational-last-lap-win-from-p17-at.6q6OeTXtVrVW2kRUOi0iel"
+    },
+    {
+     "text": "Same grid slot, Pix. I'm just saying.",
+     "kind": "opinion",
+     "delivery": "deadpan"
+    },
+    {
+     "text": "And Lando Norris dropped as far back as eleventh... and still finished second!",
+     "kind": "fact",
+     "delivery": "excited"
+    },
+    {
+     "text": "That's his fifth top-five finish in a row.",
+     "kind": "fact",
+     "delivery": "neutral"
+    },
+    {
+     "text": "The fight for third in the teams' championship? Red Bull's lead is down to NINE points, with two rounds left!",
+     "kind": "fact",
+     "delivery": "question"
+    },
+    {
+     "text": "Nine points! I need a lie down. Back to you, Pix!",
+     "kind": "link",
+     "delivery": "aside"
+    }
+   ]
+  },
+  {
+   "id": "ferrari",
+   "point": true,
+   "graphic": {
+    "kind": "photo",
+    "story": "ferrari_clash_again",
+    "n": 2,
+    "title": "LECLERC SPINS HAMILTON. AGAIN.",
+    "kicker": "F1 - FERRARI"
+   },
+   "graphic_b": {
+    "kind": "photo",
+    "story": "ferrari_clash_again",
+    "n": 1,
+    "title": "VASSEUR WILL TALK TO THE DRIVERS",
+    "kicker": "F1 - FERRARI"
+   },
+   "graphic_b_at": 0.55,
+   "shots": [
+    [
+     0,
+     "wide"
+    ],
+    [
+     0.2,
+     "full"
+    ],
+    [
+     0.55,
+     "full"
+    ],
+    [
+     0.85,
+     "close"
+    ]
+   ],
+   "sentences": [
+    {
+     "text": "Ferrari. Oh, Ferrari.",
+     "kind": "link",
+     "delivery": "deadpan"
+    },
+    {
+     "text": "At Turn Seven, Charles Leclerc knocked Lewis Hamilton into a spin.",
+     "kind": "fact",
+     "delivery": "serious"
+    },
+    {
+     "text": "Hamilton lost four places, and recovered to seventh.",
+     "kind": "fact",
+     "delivery": "neutral"
+    },
+    {
+     "text": "Leclerc got a ten-second penalty, and finished tenth.",
+     "kind": "fact",
+     "delivery": "neutral"
+    },
+    {
+     "text": "Oh, and both Ferraris went out in Q2.",
+     "kind": "fact",
+     "delivery": "question"
+    },
+    {
+     "text": "Fred Vasseur says he'll talk to the drivers the next day.",
+     "kind": "fact",
+     "delivery": "serious"
+    },
+    {
+     "text": "My view? Team-mates should race each other hard. Just not into each other.",
+     "kind": "opinion",
+     "delivery": "warm"
+    }
+   ]
+  },
+  {
+   "id": "camara_1",
+   "point": true,
+   "graphic": {
+    "kind": "photo",
+    "story": "camara_perez_clash",
+    "n": 2,
+    "title": "CAMARA PICKS F1 OVER AN F2 CROWN",
+    "kicker": "F1 - HAAS"
+   },
+   "graphic_b": {
+    "kind": "photo",
+    "story": "camara_perez_clash",
+    "n": 3,
+    "title": "PEREZ: FIVE PLACES BACK IN QATAR",
+    "kicker": "F1 - CADILLAC"
+   },
+   "graphic_b_at": 0.5,
+   "shots": [
+    [
+     0,
+     "wide"
+    ],
+    [
+     0.25,
+     "full"
+    ],
+    [
+     0.5,
+     "full"
+    ],
+    [
+     0.85,
+     "wide"
+    ]
+   ],
+   "lower_third": {
+    "title": "RAFAEL CAMARA",
+    "sub": "HAAS - QATAR AND ABU DHABI"
+   },
+   "lower_third_at": 0.0,
+   "sentences": [
+    {
+     "text": "Now, a big call from Rafael Camara.",
+     "kind": "link",
+     "delivery": "neutral"
+    },
+    {
+     "text": "Haas have confirmed him for Qatar and Abu Dhabi, ahead of his full-time debut next year.",
+     "kind": "fact",
+     "delivery": "warm"
+    },
+    {
+     "text": "In Vegas, Checo Pérez hit the back of his Haas approaching Turn Fourteen, and retired.",
+     "kind": "fact",
+     "delivery": "serious",
+     "say": "In Vegas, Checo Perez hit the back of his Haas approaching Turn Fourteen, and retired."
+    },
+    {
+     "text": "The stewards put it wholly on Pérez: his ten-second penalty became a five-place grid drop for Qatar.",
+     "kind": "fact",
+     "delivery": "neutral",
+     "say": "The stewards put it wholly on Perez: his ten-second penalty became a five-place grid drop for Qatar."
+    },
+    {
+     "text": "Camara? Sixteenth.",
+     "kind": "fact",
+     "delivery": "deadpan"
+    }
+   ]
+  },
+  {
+   "id": "camara_2",
+   "graphic": {
+    "kind": "photo",
+    "story": "camara_perez_clash",
+    "n": 1,
+    "title": "THE F2 TITLE FIGHT, WITHOUT ITS LEADER",
+    "kicker": "F2 - TITLE FIGHT"
+   },
+   "graphic_b": {
+    "kind": "bigword",
+    "big": "F2",
+    "lines": [
+     "CAMARA LEADS TSOLOV BY 7",
+     "DUNNE 11 BEHIND TSOLOV"
+    ]
+   },
+   "graphic_b_at": 0.4,
+   "shots": [
+    [
+     0,
+     "close"
+    ],
+    [
+     0.25,
+     "wide"
+    ],
+    [
+     0.4,
+     "full"
+    ],
+    [
+     0.8,
+     "close"
+    ]
+   ],
+   "sentences": [
+    {
+     "text": "But here's the twist.",
+     "kind": "link",
+     "delivery": "question"
+    },
+    {
+     "text": "Camara leads Formula Two by seven points over Nikola Tsolov.",
+     "kind": "fact",
+     "delivery": "neutral"
+    },
+    {
+     "text": "And by racing in F1 instead, The Race says he sacrifices his shot at that title.",
+     "kind": "fact",
+     "delivery": "serious"
+    },
+    {
+     "text": "Alex Dunne is third, eleven points behind Tsolov.",
+     "kind": "fact",
+     "delivery": "neutral"
+    },
+    {
+     "text": "Walking away from a title you're leading? That takes some nerve.",
+     "kind": "opinion",
+     "delivery": "deadpan"
+    }
+   ]
+  },
+  {
+   "id": "overtakes_1",
+   "speaker": "byte",
+   "graphic": {
+    "kind": "photo",
+    "story": "overtaking_debate",
+    "n": 1,
+    "title": "352 OVERTAKES: SHOW OR SPORT?",
+    "kicker": "F1 - THE DEBATE"
+   },
+   "graphic_b": {
+    "kind": "bigword",
+    "big": "352",
+    "lines": [
+     "OVERTAKES - F1'S FIGURES",
+     "35 CHANGES OF LEAD"
+    ]
+   },
+   "graphic_b_at": 0.4,
+   "shots": [
+    [
+     0,
+     "wide"
+    ],
+    [
+     0.25,
+     "close"
+    ],
+    [
+     0.4,
+     "full"
+    ],
+    [
+     0.8,
+     "close"
+    ]
+   ],
+   "sentences": [
+    {
+     "text": "Byte. The overtakes. Go.",
+     "kind": "link",
+     "delivery": "aside",
+     "speaker": "pixie"
+    },
+    {
+     "text": "Three hundred and fifty-two, Pix! By F1's own figures!",
+     "kind": "fact",
+     "delivery": "excited"
+    },
+    {
+     "text": "That's almost one for every day of the year.",
+     "kind": "fact",
+     "delivery": "warm"
+    },
+    {
+     "text": "The first Vegas race, back in twenty twenty-three? A hundred and eighty-one moves.",
+     "kind": "fact",
+     "delivery": "question"
+    },
+    {
+     "text": "And lead changes? Monza, nineteen sixty-five, had around forty!",
+     "kind": "anecdote",
+     "delivery": "excited",
+     "source": "https://en.wikipedia.org/wiki/1965_Italian_Grand_Prix"
+    },
+    {
+     "text": "So thirty-five is close. But Monza keeps the crown.",
+     "kind": "opinion",
+     "delivery": "deadpan"
+    }
+   ]
+  },
+  {
+   "id": "overtakes_2",
+   "speaker": "byte",
+   "graphic": {
+    "kind": "photo",
+    "story": "overtaking_debate",
+    "n": 2,
+    "title": "THRILLING OR VERY ARTIFICIAL?",
+    "kicker": "F1 - THE DEBATE"
+   },
+   "shots": [
+    [
+     0,
+     "full"
+    ],
+    [
+     0.4,
+     "close"
+    ],
+    [
+     0.8,
+     "wide"
+    ]
+   ],
+   "sentences": [
+    {
+     "text": "But the drivers? Split.",
+     "kind": "fact",
+     "delivery": "question"
+    },
+    {
+     "text": "Verstappen won it, and still criticised the overtaking frenzy.",
+     "kind": "fact",
+     "delivery": "deadpan"
+    },
+    {
+     "text": "Checo Pérez called it very artificial. Carlos Sainz and Lewis Hamilton enjoyed it.",
+     "kind": "fact",
+     "delivery": "neutral",
+     "say": "Checo Perez called it very artificial. Carlos Sainz and Lewis Hamilton enjoyed it."
+    },
+    {
+     "text": "Me? I'd watch three hundred and fifty-two overtakes every Sunday. Twice.",
+     "kind": "opinion",
+     "delivery": "excited"
+    },
+    {
+     "text": "Back to you, Pix, before I start counting them again!",
+     "kind": "link",
+     "delivery": "aside"
+    }
+   ]
+  },
+  {
+   "id": "alpine",
+   "point": true,
+   "graphic": {
+    "kind": "photo",
+    "story": "alpine_best_race",
+    "n": 1,
+    "title": "ALPINE'S BEST DAY, IN SLOW MODE",
+    "kicker": "F1 - ALPINE"
+   },
+   "shots": [
+    [
+     0,
+     "wide"
+    ],
+    [
+     0.3,
+     "full"
+    ],
+    [
+     0.8,
+     "close"
+    ]
+   ],
+   "sentences": [
+    {
+     "text": "A happier one from Alpine.",
+     "kind": "link",
+     "delivery": "warm"
+    },
+    {
+     "text": "Pierre Gasly finished fifth, under three seconds from the win. His best result of the season.",
+     "kind": "fact",
+     "delivery": "neutral"
+    },
+    {
+     "text": "With his power turned down for forty-five of the fifty laps!",
+     "kind": "fact",
+     "delivery": "excited"
+    },
+    {
+     "text": "An overheating issue. He says he was losing over a second a lap.",
+     "kind": "fact",
+     "delivery": "neutral"
+    },
+    {
+     "text": "And Franco Colapinto? Sixth, matching his best Grand Prix result.",
+     "kind": "fact",
+     "delivery": "warm"
+    }
+   ]
+  },
+  {
+   "id": "f2_reshuffle",
+   "point": true,
+   "graphic": {
+    "kind": "photo",
+    "story": "herta_leaves_f2",
+    "n": 1,
+    "title": "A RESHUFFLE FOR THE F2 FINALE",
+    "kicker": "FORMULA 2"
+   },
+   "shots": [
+    [
+     0,
+     "full"
+    ],
+    [
+     0.5,
+     "wide"
+    ]
+   ],
+   "sentences": [
+    {
+     "text": "Formula Two's finale has a new look, too.",
+     "kind": "link",
+     "delivery": "neutral"
+    },
+    {
+     "text": "Colton Herta won't race the last two rounds, in Qatar and Abu Dhabi.",
+     "kind": "fact",
+     "delivery": "serious"
+    },
+    {
+     "text": "Roman Bilinski takes his Hitech seat, Sebastian Montoya moves from Prema to DAMS, and Nicola Lacorte joins Prema.",
+     "kind": "fact",
+     "delivery": "neutral"
+    },
+    {
+     "text": "Musical chairs, Formula Two style.",
+     "kind": "link",
+     "delivery": "deadpan"
+    }
+   ]
+  },
+  {
+   "id": "briefs",
+   "graphic": {
+    "kind": "headlines",
+    "title": "IN BRIEF",
+    "items": [
+     "HADJAR: WING GONE, P15",
+     "LINDBLAD: P5, THEN A SPIN",
+     "BOTTAS STAYS AT CADILLAC"
+    ]
+   },
+   "graphic_b": {
+    "kind": "photo",
+    "story": "las_vegas_gp_result",
+    "n": 1,
+    "title": "AROUND THE PADDOCKS",
+    "kicker": "IN BRIEF"
+   },
+   "graphic_b_at": 0.8,
+   "shots": [
+    [
+     0,
+     "wide"
+    ],
+    [
+     0.15,
+     "full"
+    ],
+    [
+     0.8,
+     "wide"
+    ]
+   ],
+   "sentences": [
+    {
+     "text": "Quick-fire round!",
+     "kind": "link",
+     "delivery": "excited"
+    },
+    {
+     "text": "Isack Hadjar started fourth, lost his front wing right after the restart, and a penalty dropped him to fifteenth.",
+     "kind": "fact",
+     "delivery": "neutral"
+    },
+    {
+     "text": "Arvid Lindblad started a career-best fifth, then spun behind the Safety Car.",
+     "kind": "fact",
+     "delivery": "deadpan"
+    },
+    {
+     "text": "Cadillac keep Valtteri Bottas for twenty twenty-seven, alongside Checo Pérez.",
+     "kind": "fact",
+     "delivery": "warm",
+     "say": "Cadillac keep Valtteri Bottas for twenty twenty-seven, alongside Checo Perez."
+    },
+    {
+     "text": "Josef Newgarden signs a multiyear extension with Team Penske.",
+     "kind": "fact",
+     "delivery": "neutral"
+    },
+    {
+     "text": "And OpenAI will sponsor Alex Palou's car for the whole of twenty twenty-seven.",
+     "kind": "fact",
+     "delivery": "question"
+    }
+   ]
+  },
+  {
+   "id": "sign_off",
+   "point": true,
+   "graphic": {
+    "kind": "photo",
+    "story": "overtaking_debate",
+    "n": 1,
+    "title": "NEXT: QATAR",
+    "kicker": "F1 - ROUND 22"
+   },
+   "graphic_b": {
+    "kind": "nextup",
+    "big": "QATAR",
+    "sub": "ROUND 22 OF 23",
+    "later": [
+     "THEN: ABU DHABI FINALE",
+     "RBR V MCL: 9 POINTS"
+    ]
+   },
+   "graphic_b_at": 0.3,
+   "shots": [
+    [
+     0,
+     "wide"
+    ],
+    [
+     0.3,
+     "full"
+    ],
+    [
+     0.65,
+     "close"
+    ]
+   ],
+   "sentences": [
+    {
+     "text": "Next up: Qatar, round twenty-two of twenty-three.",
+     "kind": "fact",
+     "delivery": "neutral"
+    },
+    {
+     "text": "Nine points between Red Bull and McLaren, and two races to go!",
+     "kind": "fact",
+     "delivery": "excited"
+    },
+    {
+     "text": "That's the news. Keep it between the white lines... see you next week!",
+     "kind": "link",
+     "delivery": "warm"
+    }
+   ]
+  }
+ ],
+ "credits": [
+  "Formula1.com",
+  "The Race",
+  "Mercedes-AMG F1",
+  "Cadillac F1",
+  "IndyCar",
+  "Wikipedia"
+ ]
+}

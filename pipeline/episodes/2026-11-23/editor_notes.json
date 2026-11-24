@@ -1,0 +1,522 @@
+{
+ "episode": 2,
+ "date": "2026-11-23",
+ "date_display": "23 NOV 2026",
+ "city": "Stockholm",
+ "window": "2026-11-16 to 2026-11-23",
+ "cold_open_hook": "Three hundred and fifty-two overtakes, thirty-five lead changes, and Max Verstappen still on top in Las Vegas.",
+ "stories": [
+  {
+   "id": "las_vegas_gp_result",
+   "rank": 1,
+   "emphasis": "lead",
+   "speaker": "pixie",
+   "series": "F1",
+   "kicker": "Las Vegas GP",
+   "headline": "Verstappen survives the Vegas madness",
+   "angle": "The craziest race of the year: 35 lead changes, top five inside three seconds, and Verstappen led 45 of 50 laps from an inherited pole. Fourth win in six races.",
+   "facts": [
+    "Result: 1 Max Verstappen (Red Bull) 50 laps; 2 Lando Norris (McLaren) +0.639s; 3 Oscar Piastri (McLaren) +1.529s; 4 Kimi Antonelli (Mercedes) +2.574s; 5 Pierre Gasly (Alpine) +2.927s; 6 Franco Colapinto (Alpine) +7.955s; 7 Lewis Hamilton (Ferrari) +12.795s; 8 Carlos Sainz (Williams) +12.938s; 9 George Russell (Mercedes) +13.192s; 10 Charles Leclerc (Ferrari) +17.554s (includes 10s penalty)",
+    "Verstappen started from pole and officially led 45 out of 50 laps",
+    "The race had 35 changes of lead (F1.com); The Race's headline says 20-plus lead changes",
+    "According to F1's figures there were 352 overtakes",
+    "Just three seconds covered the top five finishers",
+    "It was Verstappen's fourth win of 2026, all four in the last six Grands Prix",
+    "It was Verstappen's 75th career victory and his third in Las Vegas",
+    "Antonelli was fastest in qualifying but took a five-place grid penalty for a new internal combustion engine, so Verstappen inherited pole and Russell joined him on the front row",
+    "Rain limited FP1 and FP2 on Thursday; Russell was fastest in FP2",
+    "The Safety Car was deployed on lap 19",
+    "Alex Albon (Williams) did not start; Arvid Lindblad (Racing Bulls) and Sergio Perez (Cadillac) did not finish"
+   ],
+   "unverified": [
+    "Drivers' standings after Vegas (the P2 fight): our 'battle for second' article came through as a 301-character teaser with no numbers. Don't give points gaps.",
+    "Lead changes: F1.com says 35, The Race's headline says 20-plus. Use 35 and attribute it to F1."
+   ],
+   "results": {
+    "title": "LAS VEGAS GRAND PRIX",
+    "rows": [
+     [
+      "1",
+      "VERSTAPPEN",
+      "RBR",
+      "WIN"
+     ],
+     [
+      "2",
+      "NORRIS",
+      "MCL",
+      "+0.639"
+     ],
+     [
+      "3",
+      "PIASTRI",
+      "MCL",
+      "+1.529"
+     ]
+    ]
+   },
+   "sources": [
+    {
+     "name": "The Race",
+     "title": "F1 2026 Las Vegas Grand Prix race result with post-race penalties",
+     "url": "https://www.the-race.com/formula-1/f1-2026-las-vegas-grand-prix-race-result/"
+    },
+    {
+     "name": "The Race",
+     "title": "Verstappen wins breathless Las Vegas GP as Ferraris collide",
+     "url": "https://www.the-race.com/formula-1/f1-las-vegas-gp-max-verstappen-wins-ferrari-drivers-collide/"
+    },
+    {
+     "name": "Formula1.com",
+     "title": "All the key moments from the Las Vegas Grand Prix",
+     "url": "https://www.formula1.com/en/latest/article/las-vegas-lowdown-all-the-key-moments-as-verstappen-wins-remarkable-race-and-ferraris-drivers-collide-again.62D9SeuQXSboAspMm7N0pN"
+    },
+    {
+     "name": "Formula1.com",
+     "title": "Verstappen 'from a different planet' – Mekies",
+     "url": "https://www.formula1.com/en/latest/article/hes-from-a-different-planet-mekies-praises-verstappen-after-las-vegas-gp-victory.TXH10rYL99f2dIZqnVbCq"
+    },
+    {
+     "name": "Formula1.com",
+     "title": "What the teams said – Race day in Las Vegas",
+     "url": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-las-vegas-2026.2UjFcltnN1WABnZawPqeyP"
+    },
+    {
+     "name": "Mercedes-AMG F1",
+     "title": "2026 Las Vegas Grand Prix - Race Report: Back-and-Forth Vegas Thriller Ends in Frustration - Mercedes-AMG PETRONAS F1 Team",
+     "url": "https://www.mercedesamgf1.com/reports/race-report-back-and-forth-vegas-thriller-ends-in-frustration"
+    },
+    {
+     "name": "Mercedes-AMG F1",
+     "title": "2026 Las Vegas Grand Prix: Frantic Qualifying sees Kimi Fastest with George Starting on Front-Row - Mercedes-AMG PETRONAS F1 Team",
+     "url": "https://www.mercedesamgf1.com/news/frantic-qualifying-sees-kimi-fastest-with-george-starting-on-front-row-in-las-vegas"
+    },
+    {
+     "name": "Mercedes-AMG F1",
+     "title": "2026 Las Vegas Grand Prix: Rain Clouds Opening Day Picture in Las Vegas - Mercedes-AMG PETRONAS F1 Team",
+     "url": "https://www.mercedesamgf1.com/news/rain-clouds-opening-day-picture-in-las-vegas"
+    },
+    {
+     "name": "The Race",
+     "title": "Our verdict on crazy Las Vegas GP with 20-plus lead changes",
+     "url": "https://www.the-race.com/formula-1/our-verdict-f1-crazy-las-vegas-gp-20-plus-lead-changes/"
+    },
+    {
+     "name": "The Race",
+     "title": "Edd Straw's F1 2026 Las Vegas Grand Prix driver rankings",
+     "url": "https://www.the-race.com/formula-1/edd-straws-f1-2026-las-vegas-grand-prix-driver-rankings/"
+    }
+   ],
+   "photo": true,
+   "sensitive": false,
+   "anecdote_facts": [
+    "Max Verstappen won the 2026 Las Vegas Grand Prix, his 75th career victory and his third win in Las Vegas."
+   ]
+  },
+  {
+   "id": "mercedes_late_collapse",
+   "rank": 2,
+   "emphasis": "major",
+   "speaker": "pixie",
+   "series": "F1",
+   "kicker": "Mercedes",
+   "headline": "Three laps from glory",
+   "angle": "A week after the title party, the champions throw away a winnable race: Russell into the wall, Antonelli's battery gives out on the penultimate lap.",
+   "facts": [
+    "With three laps to go Russell locked up and slid into the barrier at Turn 5; he continued and finished ninth",
+    "On the penultimate lap Antonelli lifted and re-applied the throttle, which compromised his battery deployment, and both McLarens passed him",
+    "Antonelli finished fourth, Russell ninth",
+    "Wolff said he thought Antonelli would have just saved it over the line to win",
+    "Russell said he did not regret his attack",
+    "Antonelli was fastest in qualifying but started sixth after a five-place grid penalty for a new internal combustion engine"
+   ],
+   "sources": [
+    {
+     "name": "Formula1.com",
+     "title": "Wolff explains how Mercedes challenge fell apart in Vegas",
+     "url": "https://www.formula1.com/en/latest/article/wolff-explains-how-the-mercedes-challenge-fell-apart-in-the-closing-laps-in-las-vegas.4Zf0W1yuHxigFi72cspCj"
+    },
+    {
+     "name": "Mercedes-AMG F1",
+     "title": "2026 Las Vegas Grand Prix - Race Report: Back-and-Forth Vegas Thriller Ends in Frustration - Mercedes-AMG PETRONAS F1 Team",
+     "url": "https://www.mercedesamgf1.com/reports/race-report-back-and-forth-vegas-thriller-ends-in-frustration"
+    },
+    {
+     "name": "The Race",
+     "title": "Winners and losers from F1's 2026 Las Vegas Grand Prix",
+     "url": "https://www.the-race.com/formula-1/f1-2026-las-vegas-grand-prix-winners-losers/"
+    }
+   ],
+   "photo": true,
+   "sensitive": false,
+   "anecdote_facts": []
+  },
+  {
+   "id": "mclaren_double_podium",
+   "rank": 3,
+   "emphasis": "major",
+   "speaker": "byte",
+   "series": "F1",
+   "kicker": "McLaren",
+   "headline": "Piastri: from 17th to the podium",
+   "angle": "Piastri's biggest-ever comeback and Norris's recovery from 11th cut Red Bull's lead in the fight for third in the teams' championship to nine points. Second week of the P3 fight storyline.",
+   "facts": [
+    "Norris started third, dropped as far back as 11th, and finished second, 0.639s behind Verstappen",
+    "It was Norris's seventh podium of the season and his fifth consecutive top-five finish",
+    "Piastri started 17th after a power unit grid penalty and finished third, gaining 14 places in his biggest career comeback",
+    "It was Piastri's first podium since Miami in May",
+    "McLaren are nine points behind Red Bull in the teams' standings with two rounds remaining (before Vegas the gap was 17 points)",
+    "Stella called it one of their best races and named three limits of the MCL40 package: too much drag, an eighth gear that was too short, and the gear ratios"
+   ],
+   "sources": [
+    {
+     "name": "Formula1.com",
+     "title": "Norris reflects on 'chaotic' Las Vegas GP recovery",
+     "url": "https://www.formula1.com/en/latest/article/the-most-chaotic-race-ever-norris-reflects-on-remarkable-recovery-to-p2-in-las-vegas.Nl1w9QpG0Wy5pHzttLCHw"
+    },
+    {
+     "name": "Formula1.com",
+     "title": "Why Norris & Piastri had 'one of their best races' in Vegas",
+     "url": "https://www.formula1.com/en/latest/article/why-stella-believes-norris-and-piastri-had-one-of-their-best-races-in-las-vegas.3nrRVW1vlGiQAEe5LokXri"
+    },
+    {
+     "name": "Formula1.com",
+     "title": "McLaren determined to take fight for P3 ‘down to the wire’",
+     "url": "https://www.formula1.com/en/latest/article/well-make-sure-it-goes-down-to-the-wire-mclaren-on-determination-to-finish-p3-in-teams-championship.2CPaMf6YTIkLE4pZlahf9y"
+    },
+    {
+     "name": "The Race",
+     "title": "Winners and losers from F1's 2026 Las Vegas Grand Prix",
+     "url": "https://www.the-race.com/formula-1/f1-2026-las-vegas-grand-prix-winners-losers/"
+    }
+   ],
+   "photo": true,
+   "sensitive": false,
+   "anecdote_facts": [
+    "Oscar Piastri finished third in the 2026 Las Vegas Grand Prix from 17th on the grid, gaining 14 places, his biggest career comeback."
+   ]
+  },
+  {
+   "id": "ferrari_clash_again",
+   "rank": 4,
+   "emphasis": "major",
+   "speaker": "pixie",
+   "series": "F1",
+   "kicker": "Ferrari",
+   "headline": "Leclerc spins Hamilton. Again.",
+   "angle": "Third week running for the Ferrari team-mates' feud: after Mexico and the clear-the-air meeting in Brazil, Leclerc spins Hamilton and Vasseur calls it unacceptable. Pixie's one opinion fits here.",
+   "facts": [
+    "Leclerc and Hamilton collided at Turn 7; The Race says lap 38 of 50, F1.com says lap 37",
+    "Leclerc knocked Hamilton into a spin, costing him four places; Hamilton recovered to seventh",
+    "Leclerc received a 10-second penalty for causing the collision and finished 10th",
+    "Hamilton had earlier been given a 10-second penalty for going off track in a battle with Norris, served under the Safety Car",
+    "Both Ferraris went out in Q2",
+    "Vasseur said he would talk to the drivers the next day"
+   ],
+   "sources": [
+    {
+     "name": "Formula1.com",
+     "title": "Latest Hamilton-Leclerc clash ‘unacceptable’ – Vasseur",
+     "url": "https://www.formula1.com/en/latest/article/its-a-lack-of-respect-vasseur-calls-latest-hamilton-leclerc-clash-in-las-vegas-unacceptable.5NGehhmEEtLqzDKxm7bi4z"
+    },
+    {
+     "name": "The Race",
+     "title": "Leclerc mistake 'completely unacceptable' - Ferrari",
+     "url": "https://www.the-race.com/formula-1/ferrari-reaction-unacceptable-f1-driver-clash-las-vegas/"
+    }
+   ],
+   "photo": true,
+   "sensitive": false,
+   "anecdote_facts": []
+  },
+  {
+   "id": "camara_perez_clash",
+   "rank": 5,
+   "emphasis": "major",
+   "speaker": "pixie",
+   "series": "F1",
+   "kicker": "Haas / F2",
+   "headline": "Camara picks F1 over an F2 crown",
+   "angle": "The F2 leader gives up the title fight he leads by seven points to finish the year in F1, and gets punted out of the way by Perez in Vegas. Moves the F2 title storyline: Tsolov now has a clear run.",
+   "facts": [
+    "Haas confirmed Rafael Camara will drive for them at the 2026 Qatar and Abu Dhabi Grands Prix, ahead of his full-time debut in 2027",
+    "Camara finished 20th and last, two laps down, on his debut in Brazil, and 16th in Las Vegas",
+    "Camara leads the F2 standings by seven points over Red Bull reserve Nikola Tsolov; Alex Dunne is 11 points behind Tsolov in third",
+    "By racing in F1 at Qatar and Abu Dhabi, Camara sacrifices his F2 title shot (The Race)",
+    "Perez hit the rear left tyre of Camara's Haas approaching Turn 14 and retired on lap 18",
+    "The stewards ruled Perez wholly to blame; his 10-second penalty became a five-place grid drop for the Qatar Grand Prix",
+    "Camara's debut was brought forward from 2027 after Haas split with Esteban Ocon"
+   ],
+   "unverified": [
+    "Freddie Slater likely to take Camara's Invicta F2 seat: The Race says 'likely'. Don't use."
+   ],
+   "sources": [
+    {
+     "name": "Formula1.com",
+     "title": "Haas confirm Camara to drive for team in final races of 2026",
+     "url": "https://www.formula1.com/en/latest/article/haas-confirm-camara-will-drive-for-the-team-in-final-races-of-2026.2wYY9ymhyqr7rXcuK6S7bj"
+    },
+    {
+     "name": "The Race",
+     "title": "Camara to complete F1 season with Haas, sacrificing F2 title shot",
+     "url": "https://www.the-race.com/formula-1/camara-to-complete-f1-season-with-haas-sacrificing-f2-title-shot/"
+    },
+    {
+     "name": "Formula1.com",
+     "title": "Perez hit with five-place penalty in Qatar for Camara clash",
+     "url": "https://www.formula1.com/en/latest/article/perez-hit-with-five-place-penalty-in-qatar-after-camara-clash-during-las-vegas-grand-prix.30GG7oJuJ1As0MrkavmStN"
+    },
+    {
+     "name": "Formula1.com",
+     "title": "Perez and Camara react to Las Vegas GP clash",
+     "url": "https://www.formula1.com/en/latest/article/perez-and-camara-react-to-las-vegas-grand-prix-clash-as-perez-receives-penalty-for-qatar.2WhxfuDIpCN5yN35Zupw8M"
+    },
+    {
+     "name": "Cadillac F1",
+     "title": "2026 LAS VEGAS GRAND PRIX — RACE REPORT",
+     "url": "https://www.cadillacf1team.com/news/2026-las-vegas-grand-prix-race-report"
+    },
+    {
+     "name": "Formula1.com",
+     "title": "Haas confirm Camara to race for the team in Las Vegas",
+     "url": "https://www.formula1.com/en/latest/article/haas-confirm-camara-to-race-for-the-team-in-las-vegas-as-hirakawa-returns-for-fp1-appearance.2as7TuSF4UHgXczZlu4245"
+    },
+    {
+     "name": "The Race",
+     "title": "Vegas gives Camara chance to put messy debut behind him",
+     "url": "https://www.the-race.com/formula-1/vegas-gives-camara-chance-to-put-messy-debut-behind-him/"
+    }
+   ],
+   "photo": true,
+   "sensitive": false,
+   "anecdote_facts": []
+  },
+  {
+   "id": "overtaking_debate",
+   "rank": 6,
+   "emphasis": "major",
+   "speaker": "byte",
+   "series": "F1",
+   "kicker": "The debate",
+   "headline": "352 overtakes: show or sport?",
+   "angle": "Byte loves a slipstream fight, but the drivers are split. Verstappen won it and still didn't like it.",
+   "facts": [
+    "According to F1's figures there were 352 overtakes, including 35 changes for the lead",
+    "F1.com: almost one overtake for every day of the year",
+    "During the first Las Vegas race in 2023 there were 181 moves across the grid (Mercedes preview)",
+    "Verstappen criticised the overtaking frenzy; Perez called it very artificial; Albon was mixed; Sainz and Hamilton enjoyed it"
+   ],
+   "sources": [
+    {
+     "name": "The Race",
+     "title": "'Very artificial' - F1 drivers divided over Las Vegas overtaking frenzy",
+     "url": "https://www.the-race.com/formula-1/this-is-not-f1-verstappen-criticises-las-vegas-overtaking-frenzy/"
+    },
+    {
+     "name": "Formula1.com",
+     "title": "The ingredients that created a Grand Prix with 352 overtakes",
+     "url": "https://www.formula1.com/en/latest/article/the-ingredients-that-created-a-grand-prix-with-352-overtakes.3IEhw6LQ9NQG9sF0orRKqV"
+    },
+    {
+     "name": "Mercedes-AMG F1",
+     "title": "Six Things You Didn't Know About the Las Vegas GP 2026 - Mercedes-AMG PETRONAS F1 Team",
+     "url": "https://www.mercedesamgf1.com/news/six-things-you-didnt-know-about-the-las-vegas-gp-2026"
+    }
+   ],
+   "photo": false,
+   "sensitive": false,
+   "anecdote_facts": [
+    "The 2026 Las Vegas Grand Prix had 352 overtakes and 35 changes of lead, according to F1's figures."
+   ]
+  },
+  {
+   "id": "alpine_best_race",
+   "rank": 7,
+   "emphasis": "minor",
+   "speaker": "pixie",
+   "series": "F1",
+   "kicker": "Alpine",
+   "headline": "Alpine's best day, in slow mode",
+   "angle": "Gasly finished 2.9s from the win with the power turned down for 45 laps.",
+   "facts": [
+    "Gasly finished fifth, 2.927s behind the winner, his best result of the season",
+    "Gasly ran as high as third",
+    "Gasly's power was turned down for 45 of the 50 laps because of an overheating issue; he said he was losing over a second a lap in the slowest engine mode",
+    "Colapinto finished sixth, matching his best Grand Prix result"
+   ],
+   "sources": [
+    {
+     "name": "Formula1.com",
+     "title": "Gasly reveals car issue in Las Vegas despite strong P5",
+     "url": "https://www.formula1.com/en/latest/article/gasly-reveals-car-issue-in-las-vegas-as-he-felt-he-could-challenge-for-the-win.yyZX6FzglV6KSXOeQBOJN"
+    },
+    {
+     "name": "The Race",
+     "title": "Winners and losers from F1's 2026 Las Vegas Grand Prix",
+     "url": "https://www.the-race.com/formula-1/f1-2026-las-vegas-grand-prix-winners-losers/"
+    }
+   ],
+   "photo": false,
+   "sensitive": false,
+   "anecdote_facts": []
+  },
+  {
+   "id": "herta_leaves_f2",
+   "rank": 8,
+   "emphasis": "minor",
+   "speaker": "pixie",
+   "series": "F2",
+   "kicker": "Formula 2",
+   "headline": "Herta out, a reshuffle for the F2 finale",
+   "angle": "With Camara gone and Herta quitting early, the F2 grid for Qatar and Abu Dhabi changes shape.",
+   "facts": [
+    "Herta will not race in the final two F2 rounds in Qatar and Abu Dhabi with Hitech",
+    "Herta is 19th in the drivers' championship with one top-five finish",
+    "Roman Bilinski replaces him; Sebastian Montoya moves from Prema to Bilinski's DAMS seat, and Nicola Lacorte replaces Montoya at Prema"
+   ],
+   "sources": [
+    {
+     "name": "The Race",
+     "title": "Herta ends difficult F2 season early",
+     "url": "https://www.the-race.com/formula-1/herta-ends-difficult-f2-season-early/"
+    }
+   ],
+   "photo": false,
+   "sensitive": false,
+   "anecdote_facts": []
+  }
+ ],
+ "held": [
+  {
+   "id": "fe_gen4_testing",
+   "reason": "GEN4 testing in Madrid happened, but Formula E's site disallows our collector in robots.txt, so we have no readable article. Second week in a row."
+  },
+  {
+   "id": "f1_p2_drivers_standings",
+   "reason": "No post-Vegas drivers' standings in our sources (the F1.com piece came through as a teaser). Don't quote the gap."
+  },
+  {
+   "id": "verstappen_russell_feud",
+   "reason": "One outlet, a personal jab; it would need context we don't have."
+  },
+  {
+   "id": "f1_v8_engines",
+   "reason": "Rumour from one outlet about a meeting on 16 Nov; no report of the outcome."
+  },
+  {
+   "id": "freddie_slater_f2",
+   "reason": "The Race says Slater is 'likely' to take Camara's F2 seat. Unconfirmed."
+  },
+  {
+   "id": "tsolov_red_bull_reserve",
+   "reason": "F2 announcement dated 12 Nov, outside the window and already covered last week."
+  },
+  {
+   "id": "low_interest",
+   "reason": "Cadillac-Viatris partnership, neon trophy, pitwall data speed, Rosenqvist on the Borg-Warner Trophy, Arrow McLaren opinion panel: low interest or features."
+  },
+  {
+   "id": "macau_world_cups",
+   "reason": "FIA FR, F4 and GT World Cups in Macau (22 Nov): FIA site disallows our collector; headline only."
+  }
+ ],
+ "quote_story": "las_vegas_gp_result",
+ "quote": {
+  "text": "he's from a different planet",
+  "speaker": "Laurent Mekies, Red Bull team principal",
+  "source_name": "Formula1.com",
+  "source_url": "https://www.formula1.com/en/latest/article/hes-from-a-different-planet-mekies-praises-verstappen-after-las-vegas-gp-victory.TXH10rYL99f2dIZqnVbCq"
+ },
+ "briefs": [
+  {
+   "series": "F1",
+   "text": "Isack Hadjar started fourth, lost his front wing right after the restart, and a post-race penalty for going too slowly under the Safety Car dropped him to 15th.",
+   "source": {
+    "name": "Formula1.com",
+    "url": "https://www.formula1.com/en/latest/article/hadjar-clueless-on-reason-for-front-wing-failure-as-post-race-penalty-demotes-him-a-place-in-las-vegas-gp.2tF9g5VLiq5P6MtIpiaZ1J"
+   }
+  },
+  {
+   "series": "F1",
+   "text": "Arvid Lindblad started a career-best fifth but spun behind the Safety Car and retired; Racing Bulls scored no points and Liam Lawson's five-race points run ended.",
+   "source": {
+    "name": "Formula1.com",
+    "url": "https://www.formula1.com/en/latest/article/massive-lost-opportunity-racing-bulls-drivers-reflect-on-no-points-in-las-vegas-gp.1iWZ2ywDpgkLb1FyxW9mcX"
+   }
+  },
+  {
+   "series": "F1",
+   "text": "Cadillac confirmed Valtteri Bottas for 2027 alongside Checo Perez.",
+   "source": {
+    "name": "Cadillac F1",
+    "url": "https://www.cadillacf1team.com/news/cadillac-formula-1-r-team-confirms-valtteri-bottas-for-2027-f1-season"
+   }
+  },
+  {
+   "series": "INDY",
+   "text": "Josef Newgarden signed a multiyear extension with Team Penske; he has won at least one race for 12 consecutive years.",
+   "source": {
+    "name": "IndyCar",
+    "url": "https://www.indycar.com/news/2026/11/11-18-newgarden-extension"
+   }
+  },
+  {
+   "series": "INDY",
+   "text": "OpenAI will be the full-season primary sponsor of Alex Palou's No. 10 Ganassi Honda in 2027.",
+   "source": {
+    "name": "IndyCar",
+    "url": "https://www.indycar.com/news/2026/11/11-18-palou-openai-news"
+   }
+  },
+  {
+   "series": "F1",
+   "text": "Williams ran a one-off chrome livery with Atlassian in Las Vegas; Carlos Sainz brought it home eighth.",
+   "source": {
+    "name": "Formula1.com",
+    "url": "https://www.formula1.com/en/latest/article/williams-unveil-special-one-off-livery-for-las-vegas-grand-prix.01klQqq0PYu7wjugCtr98K"
+   }
+  }
+ ],
+ "calendar": [
+  {
+   "when": "Next",
+   "what": "F1 Qatar Grand Prix, Round 22 of 23: Perez starts five places back; Camara in the Haas"
+  },
+  {
+   "when": "Then",
+   "what": "F1 and F2 season finale in Abu Dhabi"
+  },
+  {
+   "when": "Sun 7 Mar 2027",
+   "what": "IndyCar 2027 opener, St. Petersburg"
+  }
+ ],
+ "next_week_hook": "Qatar next: nine points between Red Bull and McLaren, two races to go.",
+ "storyline_updates": [
+  {
+   "id": "f1_2026_p2_drivers",
+   "status": "ongoing",
+   "note": "Verstappen second; post-Vegas gaps not in our sources (won Vegas, fourth win in six races)."
+  },
+  {
+   "id": "f1_2026_p3_teams",
+   "status": "ongoing",
+   "note": "Red Bull 9 points ahead of McLaren after Vegas; two races left."
+  },
+  {
+   "id": "f2_2026_title",
+   "status": "ongoing",
+   "note": "Camara leads Tsolov by 7 but skips Qatar and Abu Dhabi for Haas F1; Dunne 11 behind Tsolov."
+  },
+  {
+   "id": "ferrari_teammate_clashes",
+   "status": "ongoing",
+   "note": "Leclerc spun Hamilton in Vegas after Mexico clash; Vasseur: unacceptable."
+  },
+  {
+   "id": "fe_gen4",
+   "status": "ongoing",
+   "note": "GEN4 testing in Madrid; FE site disallows our collector, still no readable source."
+  }
+ ]
+}

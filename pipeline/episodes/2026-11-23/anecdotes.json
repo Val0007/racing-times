@@ -1,0 +1,73 @@
+[
+ {
+  "fact": "Max Verstappen won the 2026 Las Vegas Grand Prix, his 75th career victory and his third win in Las Vegas.",
+  "claim": "Verstappen's 2023 Las Vegas win came in the first F1 race in Las Vegas since 1982; Michele Alboreto won the 1982 Caesars Palace Grand Prix.",
+  "type": "stat",
+  "year": 2023,
+  "source_url": "https://en.wikipedia.org/wiki/Las_Vegas_Grand_Prix",
+  "source_name": "Wikipedia (Las Vegas Grand Prix)",
+  "second_source_url": "https://www.formula1.com/en/latest/article/watch-relive-the-action-from-the-1982-caesars-palace-grand-prix-the-last.2jQQoIoYwEUddPSAw2PWKx",
+  "supported_wording": "The 2023 race was the first F1 race in Las Vegas in over 40 years, since the 1982 Caesars Palace Grand Prix, won by Michele Alboreto for Tyrrell. Verstappen won in 2023.",
+  "evidence": [
+   "since the 1982 Caesars Palace Grand Prix (Wikipedia: the 2023 event was the first F1 race in Las Vegas since it)",
+   "2023: Max Verstappen, Red Bull Racing (Wikipedia winners list)",
+   "It's been over 40 years since a Formula 1 car took part in a race in Las Vegas (Formula1.com)"
+  ]
+ },
+ {
+  "fact": "Oscar Piastri finished third in the 2026 Las Vegas Grand Prix from 17th on the grid.",
+  "claim": "Kimi Raikkonen won the 2005 Japanese Grand Prix at Suzuka from 17th on the grid.",
+  "type": "same_feat",
+  "year": 2005,
+  "source_url": "https://www.formula1.com/en/latest/article/greatest-races-13-kimi-raikkonens-sensational-last-lap-win-from-p17-at.6q6OeTXtVrVW2kRUOi0iel",
+  "source_name": "Formula1.com",
+  "second_source_url": null,
+  "supported_wording": "won from 17th (P17) at Suzuka in 2005, with a last-lap win",
+  "evidence": [
+   "from P17 at Suzuka",
+   "2005 Japanese Grand Prix",
+   "remarkable climb to victory in the Japanese Grand Prix"
+  ]
+ },
+ {
+  "fact": "Oscar Piastri finished third in the 2026 Las Vegas Grand Prix from 17th on the grid.",
+  "claim": "John Watson won the 1983 United States Grand Prix West at Long Beach from 22nd on the grid.",
+  "type": "same_feat",
+  "year": 1983,
+  "source_url": "https://en.wikipedia.org/wiki/1983_United_States_Grand_Prix_West",
+  "source_name": "Wikipedia",
+  "second_source_url": "https://www.motorsportmagazine.com/special-article/the-75-greatest-grands-prix/53/45-1983-usa-gp-west-watson-takes-record-win-from-22nd-on-the-grid",
+  "supported_wording": "won from 22nd on the grid at Long Beach in 1983",
+  "evidence": [
+   "started from 22nd position",
+   "the lowest from which a driver has won an F1 race"
+  ]
+ },
+ {
+  "fact": "The 2026 Las Vegas Grand Prix had 352 overtakes and 35 changes of lead, according to F1's figures.",
+  "claim": "The 1965 Italian Grand Prix at Monza had about forty lead changes (Wikipedia counts 42, Fox Sports 40).",
+  "type": "same_feat",
+  "year": 1965,
+  "source_url": "https://en.wikipedia.org/wiki/1965_Italian_Grand_Prix",
+  "source_name": "Wikipedia",
+  "second_source_url": "https://www.foxsports.com/stories/motor/fifty-years-on-sir-jackie-stewarts-first-grand-prix-win",
+  "supported_wording": "Monza 1965 had around forty lead changes; never give a single exact number",
+  "evidence": [
+   "42 lead changes between four drivers (all British)",
+   "The race featured a record-breaking 40 lead changes at the line (Fox Sports)"
+  ]
+ },
+ {
+  "fact": "The 2026 Las Vegas Grand Prix had 352 overtakes and 35 changes of lead, according to F1's figures.",
+  "claim": "Unofficially, the 2016 Chinese Grand Prix had the most overtakes of any dry race, 161 passes for position (Autosport, 2023).",
+  "type": "stat",
+  "year": 2016,
+  "source_url": "https://www.autosport.com/f1/news/overtaking-records-in-f1/6438038/",
+  "source_name": "Autosport",
+  "second_source_url": null,
+  "supported_wording": "Unofficially, China 2016 had 161 passes, the most of any dry race as Autosport counted it in 2023",
+  "evidence": [
+   "Unofficially, the 2016 Chinese Grand Prix saw the most overtakes of any dry race, with 161 passes for position."
+  ]
+ }
+]

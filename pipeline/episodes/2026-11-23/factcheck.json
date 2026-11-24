@@ -1,0 +1,747 @@
+{
+ "script_sha": "54f212a8434dbb3c",
+ "checked_at": "2026-11-23T21:05:58",
+ "result": "pass",
+ "lines": [
+  {
+   "segment": "cold_open",
+   "index": 1,
+   "kind": "fact",
+   "text": "Three hundred and fifty-two overtakes. Thirty-five changes of lead.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "cold_open",
+   "index": 2,
+   "kind": "fact",
+   "text": "And somehow, Max Verstappen still came out on top in Las Vegas.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "headlines",
+   "index": 2,
+   "kind": "fact",
+   "text": "Verstappen wins in Vegas!",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "headlines",
+   "index": 3,
+   "kind": "fact",
+   "text": "Mercedes, three laps from glory.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "headlines",
+   "index": 4,
+   "kind": "fact",
+   "text": "Piastri, seventeenth to the podium!",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "headlines",
+   "index": 5,
+   "kind": "fact",
+   "text": "And Ferrari? Leclerc spins Hamilton. Again.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "vegas_1",
+   "index": 2,
+   "kind": "fact",
+   "text": "Max Verstappen won it, and led forty-five of the fifty laps.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "vegas_1",
+   "index": 3,
+   "kind": "fact",
+   "text": "But the top five? Covered by three seconds at the flag!",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": "0.639s per results."
+  },
+  {
+   "segment": "vegas_1",
+   "index": 4,
+   "kind": "fact",
+   "text": "Lando Norris second, six tenths back, and Oscar Piastri third.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "vegas_1",
+   "index": 5,
+   "kind": "fact",
+   "text": "Then Kimi Antonelli and Pierre Gasly, both inside three seconds of the winner.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "vegas_2",
+   "index": 1,
+   "kind": "fact",
+   "text": "That's win number seventy-five for Verstappen, and his third in Las Vegas.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "vegas_2",
+   "index": 2,
+   "kind": "fact",
+   "text": "His fourth win this year... and all four came in the last six Grands Prix.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "vegas_2",
+   "index": 3,
+   "kind": "fact",
+   "text": "And pole? Antonelli was quickest in qualifying, but a new engine cost him five places, so Verstappen inherited it.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "vegas_2",
+   "index": 4,
+   "kind": "anecdote",
+   "text": "Pix! He won the first one back, in twenty twenty-three, the first F1 race in Vegas since nineteen eighty-two!",
+   "verdict": "ok",
+   "source": "https://en.wikipedia.org/wiki/Las_Vegas_Grand_Prix",
+   "note": "Matches anecdotes.json supported_wording; Wikipedia confirms 2023 race was first F1 race in Las Vegas since 1982 and Verstappen won."
+  },
+  {
+   "segment": "vegas_2",
+   "index": 5,
+   "kind": "fact",
+   "text": "And Red Bull's boss Laurent Mekies? He says Max is \"from a different planet.\"",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": "Mekies quote \"from a different planet\" is 4 words, verbatim in F1.com article; attributed."
+  },
+  {
+   "segment": "mercedes",
+   "index": 2,
+   "kind": "fact",
+   "text": "Fresh off the teams' title, they were in the fight for the win.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": "Mercedes confirmed constructors champions the week before (Mercedes-AMG F1 site)."
+  },
+  {
+   "segment": "mercedes",
+   "index": 3,
+   "kind": "fact",
+   "text": "Three laps to go: George Russell locks up and slides into the barrier at Turn Five.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "mercedes",
+   "index": 4,
+   "kind": "fact",
+   "text": "He kept going, and finished ninth. No regrets about attacking, he says.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "mercedes",
+   "index": 5,
+   "kind": "fact",
+   "text": "Then, on the penultimate lap, Antonelli lifts, gets back on the throttle... and his battery deployment takes the hit.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "mercedes",
+   "index": 6,
+   "kind": "fact",
+   "text": "Both McLarens go past. Fourth.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "mercedes",
+   "index": 7,
+   "kind": "fact",
+   "text": "Toto Wolff reckons Antonelli would have just saved it over the line to win.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "mclaren_1",
+   "index": 3,
+   "kind": "fact",
+   "text": "Oscar Piastri started SEVENTEENTH, after a power unit penalty...",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "mclaren_1",
+   "index": 4,
+   "kind": "fact",
+   "text": "...and finished THIRD! Fourteen places! The biggest comeback of his career!",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "mclaren_1",
+   "index": 5,
+   "kind": "fact",
+   "text": "His first podium since Miami in May, too.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "mclaren_2",
+   "index": 1,
+   "kind": "anecdote",
+   "text": "And it takes me back... Kimi Raikkonen, Suzuka, two thousand and five. Won it from seventeenth!",
+   "verdict": "ok",
+   "source": "https://www.formula1.com/en/latest/article/greatest-races-13-kimi-raikkonens-sensational-last-lap-win-from-p17-at.6q6OeTXtVrVW2kRUOi0iel",
+   "note": "Source: P17 to victory, Suzuka, 2005 Japanese GP."
+  },
+  {
+   "segment": "mclaren_2",
+   "index": 3,
+   "kind": "fact",
+   "text": "And Lando Norris dropped as far back as eleventh... and still finished second!",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "mclaren_2",
+   "index": 4,
+   "kind": "fact",
+   "text": "That's his fifth top-five finish in a row.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "mclaren_2",
+   "index": 5,
+   "kind": "fact",
+   "text": "The fight for third in the teams' championship? Red Bull's lead is down to NINE points, with two rounds left!",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "ferrari",
+   "index": 2,
+   "kind": "fact",
+   "text": "At Turn Seven, Charles Leclerc knocked Lewis Hamilton into a spin.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "ferrari",
+   "index": 3,
+   "kind": "fact",
+   "text": "Hamilton lost four places, and recovered to seventh.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "ferrari",
+   "index": 4,
+   "kind": "fact",
+   "text": "Leclerc got a ten-second penalty, and finished tenth.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "ferrari",
+   "index": 5,
+   "kind": "fact",
+   "text": "Oh, and both Ferraris went out in Q2.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "ferrari",
+   "index": 6,
+   "kind": "fact",
+   "text": "Fred Vasseur says he'll talk to the drivers the next day.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "camara_1",
+   "index": 2,
+   "kind": "fact",
+   "text": "Haas have confirmed him for Qatar and Abu Dhabi, ahead of his full-time debut next year.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "camara_1",
+   "index": 3,
+   "kind": "fact",
+   "text": "In Vegas, Checo P\u00e9rez hit the back of his Haas approaching Turn Fourteen, and retired.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "camara_1",
+   "index": 4,
+   "kind": "fact",
+   "text": "The stewards put it wholly on P\u00e9rez: his ten-second penalty became a five-place grid drop for Qatar.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "camara_1",
+   "index": 5,
+   "kind": "fact",
+   "text": "Camara? Sixteenth.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "camara_2",
+   "index": 2,
+   "kind": "fact",
+   "text": "Camara leads Formula Two by seven points over Nikola Tsolov.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "camara_2",
+   "index": 3,
+   "kind": "fact",
+   "text": "And by racing in F1 instead, The Race says he sacrifices his shot at that title.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "camara_2",
+   "index": 4,
+   "kind": "fact",
+   "text": "Alex Dunne is third, eleven points behind Tsolov.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "camara_2",
+   "index": 5,
+   "kind": "opinion",
+   "text": "Walking away from a title you're leading? That takes some nerve.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": "Hidden claim that Camara currently leads F2; supported by The Race (leads by 7)."
+  },
+  {
+   "segment": "overtakes_1",
+   "index": 2,
+   "kind": "fact",
+   "text": "Three hundred and fifty-two, Pix! By F1's own figures!",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "overtakes_1",
+   "index": 3,
+   "kind": "fact",
+   "text": "That's almost one for every day of the year.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": "F1.com: almost one for every day of the year (352)."
+  },
+  {
+   "segment": "overtakes_1",
+   "index": 4,
+   "kind": "fact",
+   "text": "The first Vegas race, back in twenty twenty-three? A hundred and eighty-one moves.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": "Mercedes-AMG preview: 181 moves across the grid in 2023."
+  },
+  {
+   "segment": "overtakes_1",
+   "index": 5,
+   "kind": "anecdote",
+   "text": "And lead changes? Monza, nineteen sixty-five, had around forty!",
+   "verdict": "ok",
+   "source": "https://en.wikipedia.org/wiki/1965_Italian_Grand_Prix",
+   "note": "Wikipedia: 42 lead changes, most ever; script says around forty, within supported wording."
+  },
+  {
+   "segment": "overtakes_1",
+   "index": 6,
+   "kind": "opinion",
+   "text": "So thirty-five is close. But Monza keeps the crown.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": "Hidden claim that Monza 1965 holds the record: Wikipedia says 42 lead changes, the most ever in an F1 race; 35 is fewer. Supported."
+  },
+  {
+   "segment": "overtakes_2",
+   "index": 1,
+   "kind": "fact",
+   "text": "But the drivers? Split.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "overtakes_2",
+   "index": 2,
+   "kind": "fact",
+   "text": "Verstappen won it, and still criticised the overtaking frenzy.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "overtakes_2",
+   "index": 3,
+   "kind": "fact",
+   "text": "Checo P\u00e9rez called it very artificial. Carlos Sainz and Lewis Hamilton enjoyed it.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": "Perez said \"very artificial\" (sarcastic summary, The Race); Sainz and Hamilton enjoyed it."
+  },
+  {
+   "segment": "alpine",
+   "index": 2,
+   "kind": "fact",
+   "text": "Pierre Gasly finished fifth, under three seconds from the win. His best result of the season.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": "Source: Gasly 5th, best result of the season (The Race)."
+  },
+  {
+   "segment": "alpine",
+   "index": 3,
+   "kind": "fact",
+   "text": "With his power turned down for forty-five of the fifty laps!",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "alpine",
+   "index": 4,
+   "kind": "fact",
+   "text": "An overheating issue. He says he was losing over a second a lap.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "alpine",
+   "index": 5,
+   "kind": "fact",
+   "text": "And Franco Colapinto? Sixth, matching his best Grand Prix result.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "f2_reshuffle",
+   "index": 2,
+   "kind": "fact",
+   "text": "Colton Herta won't race the last two rounds, in Qatar and Abu Dhabi.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "f2_reshuffle",
+   "index": 3,
+   "kind": "fact",
+   "text": "Roman Bilinski takes his Hitech seat, Sebastian Montoya moves from Prema to DAMS, and Nicola Lacorte joins Prema.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "briefs",
+   "index": 2,
+   "kind": "fact",
+   "text": "Isack Hadjar started fourth, lost his front wing right after the restart, and a penalty dropped him to fifteenth.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "briefs",
+   "index": 3,
+   "kind": "fact",
+   "text": "Arvid Lindblad started a career-best fifth, then spun behind the Safety Car.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "briefs",
+   "index": 4,
+   "kind": "fact",
+   "text": "Cadillac keep Valtteri Bottas for twenty twenty-seven, alongside Checo P\u00e9rez.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "briefs",
+   "index": 5,
+   "kind": "fact",
+   "text": "Josef Newgarden signs a multiyear extension with Team Penske.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "briefs",
+   "index": 6,
+   "kind": "fact",
+   "text": "And OpenAI will sponsor Alex Palou's car for the whole of twenty twenty-seven.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "sign_off",
+   "index": 1,
+   "kind": "fact",
+   "text": "Next up: Qatar, round twenty-two of twenty-three.",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  },
+  {
+   "segment": "sign_off",
+   "index": 2,
+   "kind": "fact",
+   "text": "Nine points between Red Bull and McLaren, and two races to go!",
+   "verdict": "ok",
+   "source": "editor_notes.json",
+   "note": ""
+  }
+ ],
+ "graphics": [
+  {
+   "segment": "cold_open",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "cold_open",
+   "field": "lower_third",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "headlines",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "vegas_1",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "vegas_1",
+   "field": "graphic_b",
+   "verdict": "ok",
+   "note": "Rows match the notes (P1-P3 with gaps; P4 +2.574, P5 +2.927 from the results list)."
+  },
+  {
+   "segment": "vegas_1",
+   "field": "lower_third",
+   "verdict": "ok",
+   "note": "Round 21 confirmed by F1.com preview; Strip street circuit."
+  },
+  {
+   "segment": "vegas_2",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "vegas_2",
+   "field": "graphic_b",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "mercedes",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "mercedes",
+   "field": "graphic_b",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "mclaren_1",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "mclaren_1",
+   "field": "lower_third",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "mclaren_2",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "mclaren_2",
+   "field": "graphic_b",
+   "verdict": "ok",
+   "note": "Nine points, two rounds left: matches F1.com."
+  },
+  {
+   "segment": "ferrari",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "ferrari",
+   "field": "graphic_b",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "camara_1",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "camara_1",
+   "field": "graphic_b",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "camara_1",
+   "field": "lower_third",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "camara_2",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "camara_2",
+   "field": "graphic_b",
+   "verdict": "ok",
+   "note": "7 and 11 points match The Race."
+  },
+  {
+   "segment": "overtakes_1",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "overtakes_1",
+   "field": "graphic_b",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "overtakes_2",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "alpine",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": "\"Alpine's best day\": Gasly said it was \"our best race as a team\" (F1.com); acceptable as headline."
+  },
+  {
+   "segment": "f2_reshuffle",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "briefs",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "briefs",
+   "field": "graphic_b",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "sign_off",
+   "field": "graphic",
+   "verdict": "ok",
+   "note": ""
+  },
+  {
+   "segment": "sign_off",
+   "field": "graphic_b",
+   "verdict": "ok",
+   "note": "Round 22 of 23, 9 points, Abu Dhabi finale all match notes."
+  }
+ ]
+}
